@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<main class="content" role="main">
+  <article class="post">
+    <div class="post-meta">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+
+    <section class="post-content">
+      <a name="topofpage"></a>
+      {{content}}
+    </section>
+    <footer class="post-footer">
+      <!-- <section class="share">
+        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+          Share on
+          {% include icon-twitter.html %}
+        </a>
+      </section> -->
+    </footer>
+    <div class="bottom-teaser cf">
+      <div class="isLeft">
+        <h5 class="index-headline featured">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></h5>
+      </div>
+    </div>
+  </article>
+</main>
