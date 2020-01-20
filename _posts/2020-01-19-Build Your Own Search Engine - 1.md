@@ -5,7 +5,7 @@ categories: system-design
 title: Build Your Own Search Engine - 1
 keywords: Search Engine, Distributed System, Large-Scale System, System Design
 ---
-![Image](/_images/Untitled Diagram.png)
+![Image](/assets/A-B.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDM0NTkzNF19
+eyJoaXN0b3J5IjpbODM3MDcwNTQwLC00ODQzNDU5MzRdfQ==
 -->
