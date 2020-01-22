@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: false
+comments: falstrue
 categories: web-development
 title: What I learned from building this blog website
 ---
@@ -28,3 +28,6 @@ The first tool I thought of is [cron job](http://www.unixgeeks.org/security/newb
 ```
   */1 *  *  *  * <User Name> cd <Blog Path> && git pull >> /var/log/blogcronb.log 2>&1
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE2Mjc1OTQ1Ml19
+-->
