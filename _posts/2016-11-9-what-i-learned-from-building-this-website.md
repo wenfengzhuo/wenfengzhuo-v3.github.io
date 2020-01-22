@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 categories: web-development
 title: What I learned from building this blog website
 ---
