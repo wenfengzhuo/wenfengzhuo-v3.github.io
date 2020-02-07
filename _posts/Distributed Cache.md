@@ -1,4 +1,4 @@
-> Disclaimer: This article is mainly a review of a paper releaed by Facebook. A lot of content are either directly copied from the original paer or slightly modified. Most of the credits should be given to the paper. There are some my own interpretations of the paper, which might or might not be correct and only represent my personal opinion.
+> Disclaimer: This article i
 
 ### Introduction
 
@@ -74,3 +74,6 @@ From the diagram, we can tell Facebook uses the single leader approach for stora
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjAzMjc4MDcxXX0=
+-->
