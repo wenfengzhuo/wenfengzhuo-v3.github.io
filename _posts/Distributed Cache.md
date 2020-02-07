@@ -10,9 +10,13 @@ This article will review a paper released by Facebook - [Scaling Memcache at Fac
 
 ### Why Caching at Facebook
 
-In a large social network like Facebook, there are billions of people using the system every day, which impose great demand on computation, network bandwidth and I/O. The system needs to grab resource from multiple sources and then aggreate them, then serve them to millions of users each second. It's infesible for the system to first talk to multiple databases like MySQL and then return the results back to users. Caching system usually stores the data in memory, so it can very low latency access to data compared with traditional databases, which requires disk operations when fetching data.
+> In a large social network like Facebook, there are billions of people using the system every day, which impose great demand on computation, network bandwidth and I/O. The system needs to grab resource from multiple sources and then aggreate them, then serve them to millions of users each second. It's infesible for the system to first talk to multiple databases like MySQL and then return the results back to users. 
 
-Facebook uses Memcached as the main solution to the caching system. They used it as a building block to construct a large distributed key-value data store. To distingush Memcached and the distributed system built on top of it, in the paer, `Memcached` refers to the source code of a running binary and `Memcache` refers to the distributed system. The paper claims the Memcache system at Facebook is the largest Memcached installation, processing more than a billion requests per second and store trillions of items.
+Caching system usually stores the data in memory, so it can very low latency access to data compared with traditional databases, which requires disk operations when fetching data.
+
+> Facebook uses Memcached as the main solution to the caching system. They used it as a building block to construct a large distributed key-value data store. 
+
+To distingush Memcached and the distributed system built on top of it, in the paer, `Memcached` refers to the source code of a running binary and `Memcache` refers to the distributed system. The paper claims the Memcache system at Facebook is the largest Memcached installation, processing more than a billion requests per second and store trillions of items.
 
 ### Pattern of cache usage
 
@@ -75,5 +79,5 @@ From the diagram, we can tell Facebook uses the single leader approach for stora
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3ODE4NTg2LDE4NTM0OTE3NV19
+eyJoaXN0b3J5IjpbOTY5NTc5ODA2LDE4NTM0OTE3NV19
 -->
