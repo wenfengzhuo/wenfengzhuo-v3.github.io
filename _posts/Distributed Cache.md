@@ -77,7 +77,6 @@ From the diagram, we can tell Facebook uses the single leader approach for stora
 
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczNjE1MTk0LDE4NTM0OTE3NV19
+eyJoaXN0b3J5IjpbNjkxMDA5MzI0LDE4NTM0OTE3NV19
 -->
