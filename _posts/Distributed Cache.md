@@ -22,10 +22,10 @@ To distingush Memcached and the distributed system built on top of it, in the pa
 
 There are two properties of Facebook system that influence the design of the caching system.
 
-**Read Heavy** <br/>
+> **Read Heavy** <br/>
 User consumes an order of magnitude more content than they create. So the workload of the system are dominated by fetching data.
 
-**Heterogenous Data Source** <br/>
+> **Heterogenous Data Source** <br/>
 The read operations fetch data from a variety of sources such as MySQL, HDFS, and other backend servers. This heterogenity requires a more flexible caching strategy.
 
 ### Cache Strategy 
@@ -79,5 +79,5 @@ From the diagram, we can tell Facebook uses the single leader approach for stora
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NTc5ODA2LDE4NTM0OTE3NV19
+eyJoaXN0b3J5IjpbMzczNjE1MTk0LDE4NTM0OTE3NV19
 -->
