@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Caching layer is a critical component in lots of large-scale systems. It greatly reduces the latency of client requests and load to the lower-level systems. The famous open source solutions are Memcached and Redis. An instance of these caching system is analogous to an in-memory hash table that provides similiar semantics of operations around key-value pairs. 
+Caching layer is a critical component in lots of large-scale systems. It greatly reduces the latency of client requests and load to the lower-level systems. The famous open source solutions are Memcached and Redis. An instance of these caching system is analogous to an in-memory hash table that provides similar semantics of operations around key-value pairs. 
 
 While it's straightfoward to build such caching system in a single machine, there are many challenges in making it distributed in a large-scale environment. Things like consistency, paritioning, replication, failover, concurrent modification, etc imply non-trivial efforts in tackling them and unavoidable trade-offs between different factors.
 
@@ -75,5 +75,5 @@ From the diagram, we can tell Facebook uses the single leader approach for stora
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzQ5MTc1XX0=
+eyJoaXN0b3J5IjpbNDg3ODE4NTg2LDE4NTM0OTE3NV19
 -->
