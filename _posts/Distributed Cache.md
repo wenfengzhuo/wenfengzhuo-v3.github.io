@@ -72,8 +72,13 @@ Leaderless system does not have a leader. All the instances in the system can re
 From the diagram, we can tell Facebook uses the single leader approach for storage replication. As we mentioned earlier, there are significant more reads than writes in Facebook system, it makes sense for that setup.
 
 **Various Cluster Setup** <br/>
-The definition of Cluster from Wikipei
+There are different definition of computing cluster. The definition of Cluster from Wikipedia is:
+> A **computer cluster** is a set of loosely or tightly connected computers that work together so that, in many respects, they can be viewed as a single system
+
+With this definition, we can tell from the 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyMjUyNTMzLDEzMTc2NjA1MzIsNjkxMD
-A5MzI0LDE4NTM0OTE3NV19
+eyJoaXN0b3J5IjpbOTI0NzE5MDEsMTMxNzY2MDUzMiw2OTEwMD
+kzMjQsMTg1MzQ5MTc1XX0=
 -->
