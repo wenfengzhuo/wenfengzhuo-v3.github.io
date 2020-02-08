@@ -75,10 +75,10 @@ From the diagram, we can tell Facebook uses the single leader approach for stora
 There are different definition of computing cluster. The definition of Cluster from Wikipedia is:
 > A **computer cluster** is a set of loosely or tightly connected computers that work together so that, in many respects, they can be viewed as a single system
 
-With this definition, we can tell from the architecture there are different setups of clusters. The *Front-End Cluster* repetitively exists in a region. In each such cluster, web servers co-locate with memcache serve
+With this definition, we can tell from the architecture there are different setups of clusters. The *Front-End Cluster* repetitively exists in a region. In each such cluster, web servers co-locate with memcache servers. Notice that there is only a single storage cluster in a region. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDMxNjY2MywxMzE3NjYwNTMyLDY5MT
+eyJoaXN0b3J5IjpbLTczNTQ5NzY2NywxMzE3NjYwNTMyLDY5MT
 AwOTMyNCwxODUzNDkxNzVdfQ==
 -->
