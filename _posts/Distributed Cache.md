@@ -77,11 +77,11 @@ There are different definition of computing cluster. The definition of Cluster f
 
 We can tell from the architecture there are different setups of clusters. The *Front-End Cluster* repetitively exists in a region. In each such cluster, web servers co-locate with memcache servers. Notice that there is only a single storage cluster in a region. We will see later why the system is set up this way and what the implications are when building the distributed caching system.
 
-
+##
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxNDM2NTEwLC0xNDg4MzI4NTM5LC0xNz
-gyOTU1MTI0LC03MzU0OTc2NjcsMTMxNzY2MDUzMiw2OTEwMDkz
-MjQsMTg1MzQ5MTc1XX0=
+eyJoaXN0b3J5IjpbLTExMTA0MjI3ODYsNjAxNDM2NTEwLC0xND
+g4MzI4NTM5LC0xNzgyOTU1MTI0LC03MzU0OTc2NjcsMTMxNzY2
+MDUzMiw2OTEwMDkzMjQsMTg1MzQ5MTc1XX0=
 -->
