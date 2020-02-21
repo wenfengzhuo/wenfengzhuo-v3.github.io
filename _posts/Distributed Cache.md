@@ -37,7 +37,7 @@ The memcache is primarily used as a demand-filled look-aside cache as shown in t
 One import thing to note in the paper, for the write request, the system will send a delete request to the memcache instead of a update request with following reasons:
 
 * Deletes are idempotent. The worst case is that no key in the cache system, then it will look up the data in persistent data store. 
-* Memcache is not authoritative source of the data. Updating data in place will probably incure data inconsistency issues.
+* Memcache is not authoritative source of the data. Updating data in place will probably incur data inconsistency issues.
 * (My Note) It's simple to implement than updating the data because we don't need handling concurrent writes to the system or data inconsistency issues.
 
 Memcache is also used as a general key-value store to store pre-comuted results (e.g. results from machine learning algorithms).
@@ -75,12 +75,14 @@ From the diagram, we can tell Facebook uses the single leader approach for stora
 There are different definition of computing cluster. The definition of Cluster from Wikipedia is:
 > A **computer cluster** is a set of loosely or tightly connected computers that work together so that, in many respects, they can be viewed as a single system
 
-We can tell from the architecture there are different setups of clusters. The *Front-End Cluster* repetitively exists in a region. In each such cluster, web servers co-locate with memcache servers. Notice that there is only a single storage cluster in a region. We will see later why the system is set up this way and what the implications a
+We can tell from the architecture there are different setups of clusters. The *Front-End Cluster* repetitively exists in a region. In each such cluster, web servers co-locate with memcache servers. Notice that there is only a single storage cluster in a region. We will see later why the system is set up this way and what the implications are when building the distributed caching system.
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Nzk4OTIwOCwtMTQ4ODMyODUzOSwtMT
-c4Mjk1NTEyNCwtNzM1NDk3NjY3LDEzMTc2NjA1MzIsNjkxMDA5
-MzI0LDE4NTM0OTE3NV19
+eyJoaXN0b3J5IjpbMTkzNDg2ODYwLC0xNDg4MzI4NTM5LC0xNz
+gyOTU1MTI0LC03MzU0OTc2NjcsMTMxNzY2MDUzMiw2OTEwMDkz
+MjQsMTg1MzQ5MTc1XX0=
 -->
