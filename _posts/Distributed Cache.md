@@ -80,9 +80,8 @@ We can tell from the architecture there are different setups of clusters. The *F
 
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDg2ODYwLC0xNDg4MzI4NTM5LC0xNz
+eyJoaXN0b3J5IjpbNjAxNDM2NTEwLC0xNDg4MzI4NTM5LC0xNz
 gyOTU1MTI0LC03MzU0OTc2NjcsMTMxNzY2MDUzMiw2OTEwMDkz
 MjQsMTg1MzQ5MTc1XX0=
 -->
