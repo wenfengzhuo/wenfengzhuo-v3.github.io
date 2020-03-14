@@ -7,8 +7,10 @@ While abundant resource about how to be an expert on system design, it still rem
 
 It’s indeed intricate but not without possibility for us to excel it even with few practical experience. If we can derive some common patterns in designing a robust system, we should be able to leverage them to come up with novel solutions. We usually see in many well-design systems, there are “trade-offs” all over the place. Trade-off is when you trade A with B to maximize your win. The key here is to determine whether it’s A or B you want to trade. It will be a function of many factors: the problem you are solving, the resource you have, the timeline, the cost of solutions, the users the system is serving, the community, the culture of your company, etc.. These factors ultimately make system design a difficult problem to tackle. Essentially in my point of view, it’s a “trade-off science”.
 
- Another key element in this “trade-off science” is the ability to identify the A and the B in your system that you must choose between. Usually it comes with the pattern: if I choose A, B will suffer; or if I select B, A will be compromised. A and B can be very specific to the system you are designing, but there exists a quite number of A and B in most of systems. In fact, those specific to your system might just derivations of the generic factors. For example, in a distributed system,  we have often heard of the terms: availability, consistency, latency, 
+ Another key element in this “trade-off science” is the ability to identify the A and the B in your system that you must choose between. Usually it comes with the pattern: if I choose A, B will suffer; or if I select B, A will be compromised. A and B can be very specific to the system you are designing, but there exists a quite number of A and B in most of systems. In fact, those specific to your system might just derivations of the generic factors. For example, in a distributed system,  we have often heard of the terms: availability, consistency, latency. They are examples of the A and B.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc4MTA2NzIsLTg3MzU0OTUzNSwtNj
-YxMzAyNDU1LDE0OTU2NDAxNzcsLTYzMjc4NTM5NV19
+eyJoaXN0b3J5IjpbNTQwMTE0MTQ5LC04NzM1NDk1MzUsLTY2MT
+MwMjQ1NSwxNDk1NjQwMTc3LC02MzI3ODUzOTVdfQ==
 -->
