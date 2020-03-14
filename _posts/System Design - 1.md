@@ -5,8 +5,8 @@ System Design is an essential skill for every software engineer. The magnitude o
 
 While abundant resource about how to be an expert on system design, it still remains as a difficult skill for engineers to obtain. Usually, people are biased by years of experience when judging your system design capability. More extremely, some people might not believe you are able to design a complicated system without years of experience above a threshold. 
 
-It’s indeed intricate but not without possibility for us to excel it even with few practical experience. We usually see in many well-design systems, there are “trade-offs” all over the place. Trade-off is when you trade A with B to maximize your win. The key here is to determine whether it’s A or B you want to trade. It will be a function of many factors: the problem you are solving, the resource you have,  
+It’s indeed intricate but not without possibility for us to excel it even with few practical experience. We usually see in many well-design systems, there are “trade-offs” all over the place. Trade-off is when you trade A with B to maximize your win. The key here is to determine whether it’s A or B you want to trade. It will be a function of many factors: the problem you are solving, the resource you have, the timeline,  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTM1MDM5NiwtODczNTQ5NTM1LC02Nj
-EzMDI0NTUsMTQ5NTY0MDE3NywtNjMyNzg1Mzk1XX0=
+eyJoaXN0b3J5IjpbMjE1MjE5MDcyLC04NzM1NDk1MzUsLTY2MT
+MwMjQ1NSwxNDk1NjQwMTc3LC02MzI3ODUzOTVdfQ==
 -->
