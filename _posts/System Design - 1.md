@@ -11,12 +11,12 @@ The key here is to determine whether it’s A or B you want to trade. It will be
 
  Another key element in this “trade-off science” is the ability to identify the A and the B in your system that you must choose between. Usually it comes with the pattern: if I choose A, B will suffer; or if I select B, A will be compromised. A and B can be very specific to the system you are designing, but there exists a quite number of A and B in most of systems. In fact, those specific to your system might be just derivations of the generic factors. For example, in a distributed system,  we have often heard of the terms: availability, consistency, latency. They are examples of the A and B.
 
-With these two areas to focus, we can attempt to generalize the approaches to system design. We can start off with a discussion about the common factors of a system design and then some common ways to make the trade-offs among those factors. In the following series of articles, I will attempt to cover several topics 
+With these two areas to focus, we can attempt to generalize the approaches to system design. We can start off with a discussion about the common factors of a system design and then some common ways to make the trade-offs among those factors. In the following series of articles, I will attempt to cover several topics about system design. Hopefully it will shed some lights on your journey toward a systematic 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTU5NDM5OCwtNDQzNjY2ODk0LDU0MD
+eyJoaXN0b3J5IjpbMTM1NjQ0NDE0MCwtNDQzNjY2ODk0LDU0MD
 ExNDE0OSwtODczNTQ5NTM1LC02NjEzMDI0NTUsMTQ5NTY0MDE3
 NywtNjMyNzg1Mzk1XX0=
 -->
