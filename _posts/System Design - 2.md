@@ -10,10 +10,11 @@ We can start with a high-level architecture, similar to Figure-1 below. Before l
 
 > `client` can be: a real user, a web browser, a programming language library, a console or terminal, a batch job driver
 > `server` can be: any server that accepts requests from clients and responds accordingly. For example, a web server, a load balancer, a DNS server, a cache system, a batch job master server
+> `database` can be: any system that persists 
 
 ![A Simple System Design to Start](assets/5DE69707-4217-43FB-A7DF-C9ED96E0A99E.jpeg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMwNjg0MjIsNTE2NzI3NjA1LC00ND
-c1MDAyMTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2
-MzddfQ==
+eyJoaXN0b3J5IjpbMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0Nz
+UwMDIxMiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYz
+N119
 -->
