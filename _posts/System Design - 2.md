@@ -18,9 +18,9 @@ This diagram seems specific to an online system, for example a website, but can 
 
 Let’s review some examples.
 
-In a URL shortening system (commonly asked in a technical interview), a client can be the website similar to [billy.com](https://billy.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the text box and click the `Shorten` button, a http request will be sent to a remote server with the link to be shortened and optionally the user’s information if she/he logins in. In a small system, the server might just be a single machine that listens a TCP/IP port 
+In a URL shortening system (commonly asked in a technical interview), a client can be the website similar to [billy.com](https://billy.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the text box and click the `Shorten` button, a http request will be sent to a remote server with the link to be shortened and optionally the user’s information if she/he logins in. In a small system, the server might just be a single machine that listens a TCP/IP port and exchanges data with outside world. In a large system that serves millions of users, the server is actually a distributed system that probably comprise of load balancer, tons of commodity machines 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTQxOTU3OSwtNjIyNzg1ODIyLDIwNT
+eyJoaXN0b3J5IjpbMjA1MjY5NTI0MSwtNjIyNzg1ODIyLDIwNT
 M2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAyMTIsLTEwODU4MjYx
 NSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ==
 -->
