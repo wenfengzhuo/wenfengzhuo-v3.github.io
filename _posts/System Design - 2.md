@@ -16,9 +16,11 @@ This diagram seems specific to an online system, for example a website, but can 
 > `server` can be: any server that accepts requests from clients and responds accordingly. For example, a web server, a load balancer, a DNS server, a cache system, a batch job master server
 > `database` can be: any system that persists any data for future usage
 
+Let’s review some examples.
 
+In a URL shortening system (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjc4NTgyMiwyMDUzNjY5NDI5LDUxNj
-cyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2MTUsLTEwODU4MjYx
-NSwtNjg1OTI0NjM3XX0=
+eyJoaXN0b3J5IjpbLTE1NTk2ODAwNTUsLTYyMjc4NTgyMiwyMD
+UzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2
+MTUsLTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
 -->
