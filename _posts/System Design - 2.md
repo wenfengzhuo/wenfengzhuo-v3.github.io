@@ -18,9 +18,9 @@ This diagram seems specific to an online system, for example a website, but can 
 
 Let’s review some examples.
 
-In a URL shortening system (
+In a URL shortening system (commonly asked in a technical interview), a client can be the website 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk2ODAwNTUsLTYyMjc4NTgyMiwyMD
+eyJoaXN0b3J5IjpbLTEwMzg1Nzk1OTUsLTYyMjc4NTgyMiwyMD
 UzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2
 MTUsLTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
 -->
