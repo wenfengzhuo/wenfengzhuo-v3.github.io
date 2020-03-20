@@ -18,12 +18,14 @@ This diagram seems specific to an online system, for example a website, but can 
 
 Let’s review some examples.
 
+#### URL Shortening System
 In a URL shortening system (commonly asked in a technical interview), a client can be a website similar to [bitly.com](https://bitly.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the text box and click the `Shorten` button, a http request will be sent to a remote server with the link to be shortened and optionally the user’s information if she/he logins in. In a small system, the server might just be a single machine that listens a TCP/IP port and exchanges data with outside world. The server processes the request, namely shortening the provided link by using some common techniques like hashing, and store relevant data in a database that can be relational database like MySQL, PostgresSQL or non-relational database such as MongoDB, Cassandra, etc. In a large system that serves millions of users, the server is actually a distributed system that probably comprise of load balancer, tons of commodity machines running the same web service. Additionally, a caching layer will be placed in an appropriate position (we shall revisit more details later about caching system). There will be clusters of database instances which are either leader(s) or followers (a side note: I will avoid using master/slave term as much as possible, but they are the same concepts as leader/follower.). 
 
+#### In-memory Caching System
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDc4Mzc5MSwxODk0Mjg3MjUsMTMwMz
-QzOTQyOSwtOTYwMDczMzMyLC02MjI3ODU4MjIsMjA1MzY2OTQy
-OSw1MTY3Mjc2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1LC0xMD
-g1ODI2MTUsLTY4NTkyNDYzN119
+eyJoaXN0b3J5IjpbLTE2MjI4OTE3NDcsLTMwMDc4Mzc5MSwxOD
+k0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02MjI3ODU4
+MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIxMiwtMT
+A4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
 -->
