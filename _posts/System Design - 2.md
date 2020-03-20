@@ -18,9 +18,9 @@ This diagram seems specific to an online system, for example a website, but can 
 
 Let’s review some examples.
 
-In a URL shortening system (commonly asked in a technical interview), a client can be the website similar to [billy.com](https://billy.com), which enables us
+In a URL shortening system (commonly asked in a technical interview), a client can be the website similar to [billy.com](https://billy.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the textbox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2MzU1MTM4LC02MjI3ODU4MjIsMjA1Mz
-Y2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1
-LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
+eyJoaXN0b3J5IjpbLTIwMjUxMzYxNDUsLTYyMjc4NTgyMiwyMD
+UzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2
+MTUsLTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
 -->
