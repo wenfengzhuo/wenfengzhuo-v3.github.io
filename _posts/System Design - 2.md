@@ -26,11 +26,11 @@ Caching layer is commonly found in many software systems. A famous example is me
 
 #### A Batch Processing System
 
-Batch processing system is quite different from the above two in the first glance. 
+Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). If we 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ1NjE0ODEsMTE5MjYzMjA1NCw3MT
-gyNTg4NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUsMTMwMzQzOTQy
-OSwtOTYwMDczMzMyLC02MjI3ODU4MjIsMjA1MzY2OTQyOSw1MT
-Y3Mjc2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1LC0xMDg1ODI2
-MTUsLTY4NTkyNDYzN119
+eyJoaXN0b3J5IjpbMTQyODg1NjA1MiwxMTkyNjMyMDU0LDcxOD
+I1ODg3MiwtMzAwNzgzNzkxLDE4OTQyODcyNSwxMzAzNDM5NDI5
+LC05NjAwNzMzMzIsLTYyMjc4NTgyMiwyMDUzNjY5NDI5LDUxNj
+cyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2MTUsLTEwODU4MjYx
+NSwtNjg1OTI0NjM3XX0=
 -->
