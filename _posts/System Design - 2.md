@@ -29,7 +29,10 @@ In a URL shortening system (commonly asked in a technical interview), a client c
 #### In-memory Caching System
 Caching layer is commonly found in many software systems. A famous example is memcached - an open source key-value based in-memory caching system. In such a system, there might exist a variety of types of clients. Libraries for major programming languages will be available (such as [here](https://github.com/dustin/java-memcached-client) for Java, [here](https://github.com/pinterest/pymemcache) for Python, and [here](https://github.com/php-memcached-dev/php-memcached) for PHP). In fact, you can even use [telnet](https://en.wikipedia.org/wiki/Telnet) to interact with memcached server. On the server side, usually it uses a hash table in memory and the table size can grow to as much as the memory capacity. A special characteristic about caching system is that it usually doesn’t have a persistent layer. The primary reason is that caching system is not source of truth for the data.
 
-> Summary of 
+> Summary of In-memory Caching System
+> Clinet: Java/Python/PHP library or telnet
+> Server: a server with a big hash table or a cluster of servers
+> Database: 
 
 #### A Batch Processing System
 
@@ -37,9 +40,9 @@ Batch processing system is quite different from the above two in the first glanc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1MjM0MjE3LDg2ODk4MDU5MywxMTkyNj
-MyMDU0LDcxODI1ODg3MiwtMzAwNzgzNzkxLDE4OTQyODcyNSwx
-MzAzNDM5NDI5LC05NjAwNzMzMzIsLTYyMjc4NTgyMiwyMDUzNj
-Y5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2MTUs
-LTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
+eyJoaXN0b3J5IjpbLTg2ODIxNTQ2MSw4Njg5ODA1OTMsMTE5Mj
+YzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUs
+MTMwMzQzOTQyOSwtOTYwMDczMzMyLC02MjI3ODU4MjIsMjA1Mz
+Y2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1
+LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
 -->
