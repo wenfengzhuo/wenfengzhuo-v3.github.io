@@ -26,9 +26,9 @@ Caching layer is commonly found in many software systems. A famous example is me
 
 #### A Batch Processing System
 
-Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, 
+Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODA5MTAzNiwxMTkyNjMyMDU0LDcxOD
+eyJoaXN0b3J5IjpbMTU4MzQ2NjUyMCwxMTkyNjMyMDU0LDcxOD
 I1ODg3MiwtMzAwNzgzNzkxLDE4OTQyODcyNSwxMzAzNDM5NDI5
 LC05NjAwNzMzMzIsLTYyMjc4NTgyMiwyMDUzNjY5NDI5LDUxNj
 cyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2MTUsLTEwODU4MjYx
