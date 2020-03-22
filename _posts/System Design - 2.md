@@ -22,11 +22,13 @@ Let’s review some examples.
 In a URL shortening system (commonly asked in a technical interview), a client can be a website similar to [bitly.com](https://bitly.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the text box and click the `Shorten` button, a http request will be sent to a remote server with the link to be shortened and optionally the user’s information if she/he logins in. In a small system, the server might just be a single machine that listens a TCP/IP port and exchanges data with outside world. The server processes the request, namely shortening the provided link by using some common techniques like hashing, and store relevant data in a database that can be relational database like MySQL, PostgresSQL or non-relational database such as MongoDB, Cassandra, etc. In a large system that serves millions of users, the server is actually a distributed system that probably comprise of load balancer, tons of commodity machines running the same web service. Additionally, a caching layer will be placed in an appropriate position (we shall revisit more details later about caching system). There will be clusters of database instances which are either leader(s) or followers (a side note: I will avoid using master/slave term as much as possible, but they are the same concepts as leader/follower.). 
 
 #### In-memory Caching System
-Caching layer is commonly found in many software systems. A famous example is memcached - an open source key-value based in-memory caching system. In such a system, there might exist a variety of types of clients. Libraries for major programming languages will be available (such as [here](https://github.com/dustin/java-memcached-client) for Java, [here](https://github.com/pinterest/pymemcache) for Python, and [here](https://github.com/php-memcached-dev/php-memcached) for PHP). In fact, you can even use [telnet](https://en.wikipedia.org/wiki/Telnet) to interact with memcached server. On the server side, usually it uses a hash table in memory and the table size can grow to as much as the memory capacity. A special characteristic about caching system is that it usually doesn’t have a persistent layer. The primary reason is that caching system is not source of truth for records.
+Caching layer is commonly found in many software systems. A famous example is memcached - an open source key-value based in-memory caching system. In such a system, there might exist a variety of types of clients. Libraries for major programming languages will be available (such as [here](https://github.com/dustin/java-memcached-client) for Java, [here](https://github.com/pinterest/pymemcache) for Python, and [here](https://github.com/php-memcached-dev/php-memcached) for PHP). In fact, you can even use [telnet](https://en.wikipedia.org/wiki/Telnet) to interact with memcached server. On the server side, usually it uses a hash table in memory and the table size can grow to as much as the memory capacity. A special characteristic about caching system is that it usually doesn’t have a persistent layer. The primary reason is that caching system is not source of truth for the data.
+
+#### A 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDM3MjExMywxMTkyNjMyMDU0LDcxOD
-I1ODg3MiwtMzAwNzgzNzkxLDE4OTQyODcyNSwxMzAzNDM5NDI5
-LC05NjAwNzMzMzIsLTYyMjc4NTgyMiwyMDUzNjY5NDI5LDUxNj
-cyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2MTUsLTEwODU4MjYx
-NSwtNjg1OTI0NjM3XX0=
+eyJoaXN0b3J5IjpbNTE5Mzc4MjMxLDExOTI2MzIwNTQsNzE4Mj
+U4ODcyLC0zMDA3ODM3OTEsMTg5NDI4NzI1LDEzMDM0Mzk0Mjks
+LTk2MDA3MzMzMiwtNjIyNzg1ODIyLDIwNTM2Njk0MjksNTE2Nz
+I3NjA1LC00NDc1MDAyMTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1
+LC02ODU5MjQ2MzddfQ==
 -->
