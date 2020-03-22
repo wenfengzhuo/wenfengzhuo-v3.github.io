@@ -26,11 +26,13 @@ Caching layer is commonly found in many software systems. A famous example is me
 
 #### A Batch Processing System
 
-Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprises of master nodes and worker nodes. Master nodes respond to clients’ requests and coordinate jobs with worker nodes, which execute tasks independently. This c
+Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprises of master nodes and worker nodes. Master nodes respond to clients’ requests and coordinate jobs with worker nodes, which execute tasks independently. This cluster usually relies on distributed file system to persist data where we can refer as the “database” for the batch process system.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjU0Mjc3OSwxMTkyNjMyMDU0LDcxOD
-I1ODg3MiwtMzAwNzgzNzkxLDE4OTQyODcyNSwxMzAzNDM5NDI5
-LC05NjAwNzMzMzIsLTYyMjc4NTgyMiwyMDUzNjY5NDI5LDUxNj
-cyNzYwNSwtNDQ3NTAwMjEyLC0xMDg1ODI2MTUsLTEwODU4MjYx
-NSwtNjg1OTI0NjM3XX0=
+eyJoaXN0b3J5IjpbODY4OTgwNTkzLDExOTI2MzIwNTQsNzE4Mj
+U4ODcyLC0zMDA3ODM3OTEsMTg5NDI4NzI1LDEzMDM0Mzk0Mjks
+LTk2MDA3MzMzMiwtNjIyNzg1ODIyLDIwNTM2Njk0MjksNTE2Nz
+I3NjA1LC00NDc1MDAyMTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1
+LC02ODU5MjQ2MzddfQ==
 -->
