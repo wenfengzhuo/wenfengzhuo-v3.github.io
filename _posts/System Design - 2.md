@@ -26,11 +26,11 @@ Caching layer is commonly found in many software systems. A famous example is me
 
 #### A Batch Processing System
 
-
+Batch processing system is quite different from the above two in the first glance. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyNjQ0NzYsMTE5MjYzMjA1NCw3MTgyNT
-g4NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwt
-OTYwMDczMzMyLC02MjI3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mj
-c2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUs
-LTY4NTkyNDYzN119
+eyJoaXN0b3J5IjpbLTE5MTQ1NjE0ODEsMTE5MjYzMjA1NCw3MT
+gyNTg4NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUsMTMwMzQzOTQy
+OSwtOTYwMDczMzMyLC02MjI3ODU4MjIsMjA1MzY2OTQyOSw1MT
+Y3Mjc2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1LC0xMDg1ODI2
+MTUsLTY4NTkyNDYzN119
 -->
