@@ -32,15 +32,18 @@ Caching layer is commonly found in many software systems. A famous example is me
 > Summary of In-memory Caching System
 > Clinet: Java/Python/PHP library or telnet
 > Server: a server with a big hash table or a cluster of servers
-> Database: 
+> Database: usually no persistent layer
 
 #### A Batch Processing System
 
-Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprises of master nodes and worker nodes. Master nodes respond to clients’ requests and coordinate jobs with worker nodes, which execute tasks independently. This cluster usually relies on distributed file system to persist data where we can refer as the “database” for the batch process system.
+Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprises of master nodes and worker nodes. Master nodes respond to clients’ requests and coordinate jobs with worker nodes, which execute tasks independently. This cluster usually relies on distributed file system to persist data where we can refer as the “database” for the batch process system. [HDFS] is commonly 
 
-
+> Summary of Batching Processing System
+> Client: a driver program
+> Server: the cluster of the system which has master nodes and worker nodes
+> Database: distributed file system. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODIxNTQ2MSw4Njg5ODA1OTMsMTE5Mj
+eyJoaXN0b3J5IjpbMTU5Mzk5NzUxNSw4Njg5ODA1OTMsMTE5Mj
 YzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUs
 MTMwMzQzOTQyOSwtOTYwMDczMzMyLC02MjI3ODU4MjIsMjA1Mz
 Y2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1
