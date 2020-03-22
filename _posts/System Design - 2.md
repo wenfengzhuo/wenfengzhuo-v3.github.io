@@ -27,30 +27,30 @@ In a URL shortening system (commonly asked in a technical interview), a client c
 *Summary of URL Shortening System*
 > **Client**: a real user or websites or Javascript that interacts with servers
 > **Server**: a web server listens on 80 or 433 port, or a cluster of servers and load balancers
-> Database: MySQL or PostgresSQL, or MongoDB, DynamoDB, Cassandra 
+> **Database**: MySQL or PostgresSQL, or MongoDB, DynamoDB, Cassandra 
 
 #### In-memory Caching System
 Caching layer is commonly found in many software systems. A famous example is memcached - an open source key-value based in-memory caching system. In such a system, there might exist a variety of types of clients. Libraries for major programming languages will be available (such as [here](https://github.com/dustin/java-memcached-client) for Java, [here](https://github.com/pinterest/pymemcache) for Python, and [here](https://github.com/php-memcached-dev/php-memcached) for PHP). In fact, you can even use [telnet](https://en.wikipedia.org/wiki/Telnet) to interact with memcached server. On the server side, usually it uses a hash table in memory and the table size can grow to as much as the memory capacity. A special characteristic about caching system is that it usually doesn’t have a persistent layer. The primary reason is that caching system is not source of truth for the data.
 
 *Summary of In-memory Caching System*
-> Clinet: Java/Python/PHP library or telnet
-> Server: a server with a big hash table or a cluster of servers
-> Database: usually no persistent layer
+> **Client**: Java/Python/PHP library or telnet
+> **Server**: a server with a big hash table or a cluster of servers
+> **Database**: usually no persistent layer
 
 #### A Batch Processing System
 
 Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprises of master nodes and worker nodes. Master nodes respond to clients’ requests and coordinate jobs with worker nodes, which execute tasks independently. This cluster usually relies on distributed file system to persist data where we can refer as the “database” for the batch process system. [HDFS](https://hdfs.apache.org) is an open sourced distributed file system commonly used in the industry.
 
 *Summary of Batching Processing System*
-> Client: a driver program
-> Server: the cluster of the system which has master nodes and worker nodes
-> Database: a distributed file system. 
+> **Client**: a driver program
+> **Server**: the cluster of the system which has master nodes and worker nodes
+> **Database**: a distributed file system. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDYwNzE4OCw4Njg5ODA1OTMsMTE5Mj
-YzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUs
-MTMwMzQzOTQyOSwtOTYwMDczMzMyLC02MjI3ODU4MjIsMjA1Mz
-Y2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1
-LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
+eyJoaXN0b3J5IjpbLTExNjkwODU2OTAsODY4OTgwNTkzLDExOT
+I2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3OTEsMTg5NDI4NzI1
+LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNjIyNzg1ODIyLDIwNT
+M2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAyMTIsLTEwODU4MjYx
+NSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ==
 -->
