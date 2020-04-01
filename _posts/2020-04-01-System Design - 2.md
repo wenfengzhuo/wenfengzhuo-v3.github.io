@@ -2,7 +2,7 @@
 layout: post
 comments: true
 categories: system-design
-title: System Design - Part 2: Where we start
+title: System Design - Part 2
 ---
 Before we dig into various aspects of system designs, we shall first review and retrospect where we start when asked for designing a system. 
 
@@ -86,5 +86,5 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3ODg1MDEwXX0=
+eyJoaXN0b3J5IjpbLTE1MTg5NTYyNTMsNDM3ODg1MDEwXX0=
 -->
