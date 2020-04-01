@@ -29,7 +29,7 @@ In a large system that serves millions of users, the server is actually a distri
 
 *Summary of URL Shortening System*
 > **Client**: a real user or websites or Javascript that interacts with servers <br/>
-> **Server**: a web server listens on 80 or 433 port, or a cluster of servers and load balancers </br>
+> **Server**: a web server listens on 80 or 433 port, or a cluster of servers and load balancers <br/>
 > **Database**: MySQL or PostgresSQL, or MongoDB, DynamoDB, Cassandra
 
 #### In-memory Caching System
@@ -99,7 +99,7 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDcyNTEyOSwtNTgyMDMwNjA2LC0xNj
-ExODU0NDMzLC01ODIwMzA2MDYsLTE1MTg5NTYyNTMsNDM3ODg1
-MDEwXX0=
+eyJoaXN0b3J5IjpbLTMwMTAxMDkwMywxMTMwNzI1MTI5LC01OD
+IwMzA2MDYsLTE2MTE4NTQ0MzMsLTU4MjAzMDYwNiwtMTUxODk1
+NjI1Myw0Mzc4ODUwMTBdfQ==
 -->
