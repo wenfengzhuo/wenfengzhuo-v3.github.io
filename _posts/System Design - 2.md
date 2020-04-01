@@ -63,12 +63,11 @@ These requirements describe the functionalities the system provide. In the URL s
 * Take care of corner cases
 * Leverage known algorithms and data structures or devise your own 
 
-Often, we easily overlook the importance of the functional requirements and focu
+Often, we easily overlook the importance of the functional requirements and focus too much on the next one we will discuss below.  Consequently, we need to rework the design or deviate from the intgoal 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjUyNjM5MjEsLTExNjkwODU2OTAsOD
-Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
-OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
-IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
-MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
-==
+eyJoaXN0b3J5IjpbMTMyMDY5MjYxMywtMTE2OTA4NTY5MCw4Nj
+g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
+MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
+I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
+MiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
 -->
