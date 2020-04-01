@@ -76,16 +76,16 @@ These requirements describe how well the system will serve its functionalities. 
 
 Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep it up running 7/24 and ensure generating the shortened URL quickly enough to make user believe it is worth their effort in using the tool rather than retrieving the long URL directly from their notebook. In the distributed caching system, the system should guarantee a high level of consistency of the data it caches. When a user updates the value of a key, another user should see the change of the same key after a short period of time. 
 
-There are many techniques for 
+There are many techniques for satisfying these non-functional requirements, and we shall discuss them in details in a separate article.
 
 ### Summary
 
-
+When tasked with a system design 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTU2OTkzOSwxOTgxMzA3NzY0LC0xMT
-Y5MDg1NjkwLDg2ODk4MDU5MywxMTkyNjMyMDU0LDcxODI1ODg3
-MiwtMzAwNzgzNzkxLDE4OTQyODcyNSwxMzAzNDM5NDI5LC05Nj
-AwNzMzMzIsLTYyMjc4NTgyMiwyMDUzNjY5NDI5LDUxNjcyNzYw
-NSwtNDQ3NTAwMjEyLC0xMDg1ODI2MTUsLTEwODU4MjYxNSwtNj
-g1OTI0NjM3XX0=
+eyJoaXN0b3J5IjpbLTE1NTU4MjYwNDEsMTk4MTMwNzc2NCwtMT
+E2OTA4NTY5MCw4Njg5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4
+NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOT
+YwMDczMzMyLC02MjI3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2
+MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLT
+Y4NTkyNDYzN119
 -->
