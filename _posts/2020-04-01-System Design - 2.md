@@ -85,11 +85,10 @@ These requirements describe how well the system will serve its functionalities. 
 * The availability of the system (it should be the same for a single user or a billion of users)
 * The latency of responding client requests
 * The consistency of the data (whether it is consistent for two different users and/or at two different times and/or in two different geolocations)
-* The cost (machines, development, maintenance)
-
+* The cost (machines, development, maintenance) <br/>
 Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep it up running 7/24 and ensure generating the shortened URL quickly enough to make user believe it is worth their effort in using the tool rather than retrieving the long URL directly from their notebook. In the distributed caching system, the system should guarantee a high level of consistency of the data it caches. When a user updates the value of a key, another user should see the change of the same key after a short period of time. 
 
-There are many techniques for satisfying these non-functional requirements, and we shall discuss them in details in a separate article.
+There are many techniques for satisfying these non-functional requirements, and we shall discuss them in details separately.
 
 ### Summary
 
@@ -99,7 +98,7 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTAxMDkwMywxMTMwNzI1MTI5LC01OD
-IwMzA2MDYsLTE2MTE4NTQ0MzMsLTU4MjAzMDYwNiwtMTUxODk1
-NjI1Myw0Mzc4ODUwMTBdfQ==
+eyJoaXN0b3J5IjpbMTk5MDUzOTA2NywtMzAxMDEwOTAzLDExMz
+A3MjUxMjksLTU4MjAzMDYwNiwtMTYxMTg1NDQzMywtNTgyMDMw
+NjA2LC0xNTE4OTU2MjUzLDQzNzg4NTAxMF19
 -->
