@@ -76,7 +76,7 @@ Correct implementation is the key, which requires you to:
 * Take care of corner cases
 * Leverage known algorithms and data structures or devise your own 
 
-Often, we easily overlook the importance of the functional requirements and focus too much on the non-functional requirements.  Consequently, we need to rework the design or deviate from the initial goal of creating the system later.
+Often, we easily overlook the importance of the functional requirements and focus too much on the non-functional requirements.  Consequently, we need to rework the design later or deviate from the initial goal of creating the system.
 
 **Non-functional Requirements**
 
@@ -85,7 +85,8 @@ These requirements describe how well the system will serve its functionalities. 
 * The availability of the system (it should be the same for a single user or a billion of users)
 * The latency of responding client requests
 * The consistency of the data (whether it is consistent for two different users and/or at two different times and/or in two different geolocations)
-* The cost (machines, development, maintenance) <br/>
+* The cost (machines, development, maintenance) 
+
 Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep it up running 7/24 and ensure generating the shortened URL quickly enough to make user believe it is worth their effort in using the tool rather than retrieving the long URL directly from their notebook. In the distributed caching system, the system should guarantee a high level of consistency of the data it caches. When a user updates the value of a key, another user should see the change of the same key after a short period of time. 
 
 There are many techniques for satisfying these non-functional requirements, and we shall discuss them in details separately.
@@ -98,7 +99,7 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDUzOTA2NywtMzAxMDEwOTAzLDExMz
-A3MjUxMjksLTU4MjAzMDYwNiwtMTYxMTg1NDQzMywtNTgyMDMw
-NjA2LC0xNTE4OTU2MjUzLDQzNzg4NTAxMF19
+eyJoaXN0b3J5IjpbLTE2Mzc2NzgxNzIsLTMwMTAxMDkwMywxMT
+MwNzI1MTI5LC01ODIwMzA2MDYsLTE2MTE4NTQ0MzMsLTU4MjAz
+MDYwNiwtMTUxODk1NjI1Myw0Mzc4ODUwMTBdfQ==
 -->
