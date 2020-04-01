@@ -20,7 +20,6 @@ This diagram seems specific to an online system, for example a website, but can 
 
 ### Examples of Systems
 Let’s review some examples.
-
 #### URL Shortening System
 In a URL shortening system (commonly asked in a technical interview), a client can be a website similar to [bitly.com](https://bitly.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the text box and click the `Shorten` button, a http request will be sent to a remote server with the link to be shortened and optionally the user’s information if she/he logins in.
 
@@ -100,7 +99,7 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjI5OTcwMywtNTgyMDMwNjA2LC0xNj
+eyJoaXN0b3J5IjpbMTEzMDcyNTEyOSwtNTgyMDMwNjA2LC0xNj
 ExODU0NDMzLC01ODIwMzA2MDYsLTE1MTg5NTYyNTMsNDM3ODg1
 MDEwXX0=
 -->
