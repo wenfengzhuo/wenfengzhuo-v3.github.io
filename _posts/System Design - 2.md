@@ -57,11 +57,12 @@ Systematically, two types of requirements make a system unique regardless of how
 
 **Functional Requirements**
 
-These requirements describe the functionalities the system provide. 
+These requirements describe the functionalities the system provide. In the URL shortening system, the requirements are: shorten a given URL and store it, retrieve original URL given a shortened URL; In the distributed caching system, the requirements are: store 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MDYzMDYxLC0xMTY5MDg1NjkwLDg2OD
-k4MDU5MywxMTkyNjMyMDU0LDcxODI1ODg3MiwtMzAwNzgzNzkx
-LDE4OTQyODcyNSwxMzAzNDM5NDI5LC05NjAwNzMzMzIsLTYyMj
-c4NTgyMiwyMDUzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEy
-LC0xMDg1ODI2MTUsLTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
+eyJoaXN0b3J5IjpbLTEyNzE0MjkyMjksLTExNjkwODU2OTAsOD
+Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
+OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
+IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
+MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
+==
 -->
