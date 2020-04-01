@@ -31,11 +31,9 @@ In a small system, the server might just be a single machine that listens a TCP/
 In a large system that serves millions of users, the server is actually a distributed system that probably comprise of load balancer, tons of commodity machines running the same web service. Additionally, a caching layer will be placed in an appropriate position (we shall revisit more details later about caching system). There will be clusters of database instances which are either leader(s) or followers (a side note: I will avoid using master/slave term as much as possible, but they are the same concepts as leader/follower.). 
 
 *Summary of URL Shortening System*
-> **Client**: a real user or websites or Javascript that interacts with servers
-> 
-> **Server**: a web server listens on 80 or 433 port, or a cluster of servers and load balancers
-> 
-> **Database**: MySQL or PostgresSQL, or MongoDB, DynamoDB, Cassandra 
+> **Client**: a real user or websites or Javascript that interacts with servers<br/>
+> **Server**: a web server listens on 80 or 433 port, or a cluster of servers and load balancers </br>
+> **Database**: MySQL or PostgresSQL, or MongoDB, DynamoDB, Cassandra
 
 #### In-memory Caching System
 Caching layer is commonly found in many software systems. A famous example is memcached - an open source key-value based in-memory caching system.
@@ -45,8 +43,8 @@ In such a system, there might exist a variety of types of clients. Libraries for
 On the server side, usually it uses a hash table in memory and the table size can grow to as much as the memory capacity. A special characteristic about caching system is that it usually doesn’t have a persistent layer. The primary reason is that caching system is not source of truth for the data.
 
 *Summary of In-memory Caching System*
-> **Client**: Java/Python/PHP library or telnet
-> **Server**: a server with a big hash table or a cluster of servers
+> **Client**: Java/Python/PHP library or telnet <br/>
+> **Server**: a server with a big hash table or a cluster of servers<br/>
 > **Database**: usually no persistent layer
 
 #### A Batch Processing System
@@ -58,10 +56,8 @@ In such a system, a driver program can be regarded as a client. It initiates a b
 This cluster usually relies on distributed file system to persist data where we can refer as the “database” for the batch process system. [HDFS](https://hdfs.apache.org) is an open sourced distributed file system commonly used in the industry.
 
 *Summary of Batching Processing System*
-> **Client**: a driver program
-> 
-> **Server**: the cluster of the system which has master nodes and worker nodes
-> 
+> **Client**: a driver program<br/>
+> **Server**: the cluster of the system which has master nodes and worker nodes<br/>
 > **Database**: a distributed file system. 
 
 ### How to Differentiate
@@ -106,6 +102,7 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjAzMDYwNiwtMTYxMTg1NDQzMywtNT
-gyMDMwNjA2LC0xNTE4OTU2MjUzLDQzNzg4NTAxMF19
+eyJoaXN0b3J5IjpbLTEyMzkxNzgwMjYsLTU4MjAzMDYwNiwtMT
+YxMTg1NDQzMywtNTgyMDMwNjA2LC0xNTE4OTU2MjUzLDQzNzg4
+NTAxMF19
 -->
