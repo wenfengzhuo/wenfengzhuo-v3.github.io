@@ -14,7 +14,7 @@ We can start with a high-level architecture, similar to Figure-1 below. Before l
 
 This diagram seems specific to an online system, for example a website, but can be applied to many problems if you think of the `client`, `server`, `database` in a more general way. 
 
-> **client** can be: a real user, a web browser, a programming language library, a console or terminal, a batch job driver </br>
+> **client** can be: a real user, a web browser, a programming language library, a console or terminal, a batch job driver <br/>
 > **server** can be: any server that accepts requests from clients and responds accordingly. For example, a web server, a load balancer, a DNS server, a cache system, a batch job master server <br/>
 > **database** can be: any system that persists any data for future usage
 
@@ -100,7 +100,7 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDE0MDM5LC01ODIwMzA2MDYsLTE2MT
-E4NTQ0MzMsLTU4MjAzMDYwNiwtMTUxODk1NjI1Myw0Mzc4ODUw
-MTBdfQ==
+eyJoaXN0b3J5IjpbMTA0MjI5OTcwMywtNTgyMDMwNjA2LC0xNj
+ExODU0NDMzLC01ODIwMzA2MDYsLTE1MTg5NTYyNTMsNDM3ODg1
+MDEwXX0=
 -->
