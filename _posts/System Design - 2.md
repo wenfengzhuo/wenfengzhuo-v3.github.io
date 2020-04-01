@@ -46,11 +46,13 @@ Batch processing system is quite different from the above two in the first glanc
 > **Server**: the cluster of the system which has master nodes and worker nodes
 > **Database**: a distributed file system. 
 
+### How to Differentiate
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkwODU2OTAsODY4OTgwNTkzLDExOT
-I2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3OTEsMTg5NDI4NzI1
-LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNjIyNzg1ODIyLDIwNT
-M2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAyMTIsLTEwODU4MjYx
-NSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ==
+eyJoaXN0b3J5IjpbLTgzMTM3Mzg5NiwtMTE2OTA4NTY5MCw4Nj
+g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
+MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
+I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
+MiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
 -->
