@@ -2,7 +2,7 @@
 layout: post
 comments: true
 categories: system-design
-title: System Design - Part 2
+title: System Design Part 2 - How we approach
 ---
 Before we dig into various aspects of system designs, we shall first review and retrospect where we start when asked for designing a system. 
 
@@ -99,7 +99,8 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc2NzgxNzIsLTMwMTAxMDkwMywxMT
-MwNzI1MTI5LC01ODIwMzA2MDYsLTE2MTE4NTQ0MzMsLTU4MjAz
-MDYwNiwtMTUxODk1NjI1Myw0Mzc4ODUwMTBdfQ==
+eyJoaXN0b3J5IjpbLTExMzE0OTU5MzYsLTE2Mzc2NzgxNzIsLT
+MwMTAxMDkwMywxMTMwNzI1MTI5LC01ODIwMzA2MDYsLTE2MTE4
+NTQ0MzMsLTU4MjAzMDYwNiwtMTUxODk1NjI1Myw0Mzc4ODUwMT
+BdfQ==
 -->
