@@ -63,9 +63,13 @@ These requirements describe the functionalities the system provide. In the URL s
 * Take care of corner cases
 * Leverage known algorithms and data structures or devise your own 
 
-Often, we easily overlook the importance of the functional requirements and focus too much on the next one we will discuss below.  Consequently, we need to rework the design or deviate from the intgoal 
+Often, we easily overlook the importance of the functional requirements and focus too much on the non-functional requirements.  Consequently, we need to rework the design or deviate from the initial goal of creating the system.
+
+**Non-functional Requirements**
+
+These requirements describe how well the system will serve 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDY5MjYxMywtMTE2OTA4NTY5MCw4Nj
+eyJoaXN0b3J5IjpbMTkwMzA1MDQ4NSwtMTE2OTA4NTY5MCw4Nj
 g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
 MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
 I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
