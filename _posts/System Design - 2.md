@@ -70,12 +70,12 @@ Often, we easily overlook the importance of the functional requirements and focu
 These requirements describe how well the system will serve its functionalities. Usually, it is to ensure: user experience, data integrity, cost effectiveness, low maintenance effort, etc. With these goals in mind, you system needs to take into consideration of a subset of the following things:
 
 * The availability of the system (it should be the same for a single user or a billion of users)
-* The latency of 
+* The latency of responding client requests
+* The consistency of the data (whether it is consistent for two 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk2OTYxNTcsLTExNjkwODU2OTAsOD
-Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
-OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
-IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
-MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
-==
+eyJoaXN0b3J5IjpbLTM2MTI1MTk0MSwtMTE2OTA4NTY5MCw4Nj
+g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
+MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
+I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
+MiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
 -->
