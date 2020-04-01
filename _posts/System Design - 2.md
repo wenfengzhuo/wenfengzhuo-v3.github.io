@@ -57,9 +57,9 @@ Systematically, two types of requirements make a system unique regardless of how
 
 **Functional Requirements**
 
-These requirements describe the functionalities the system provide. In the URL shortening system, the requirements are: shorten a given URL and store it, retrieve original URL given a shortened URL; In the distributed caching system, the requirements are: store a piece of data associated with a key, retrieve the data with given key. When designing these systems, you have to make sure the system will `correctly` satisfy these requirements. 
+These requirements describe the functionalities the system provide. In the URL shortening system, the requirements are: shorten a given URL and store it, retrieve original URL given a shortened URL; In the distributed caching system, the requirements are: store a piece of data associated with a key, retrieve the data with given key. When designing these systems, you have to make sure the system will `correctly` satisfy these requirements. Correct implementation is the key. Sometimes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NDUxNDEzLC0xMTY5MDg1NjkwLDg2OD
+eyJoaXN0b3J5IjpbODA4MjQzMDQ3LC0xMTY5MDg1NjkwLDg2OD
 k4MDU5MywxMTkyNjMyMDU0LDcxODI1ODg3MiwtMzAwNzgzNzkx
 LDE4OTQyODcyNSwxMzAzNDM5NDI5LC05NjAwNzMzMzIsLTYyMj
 c4NTgyMiwyMDUzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEy
