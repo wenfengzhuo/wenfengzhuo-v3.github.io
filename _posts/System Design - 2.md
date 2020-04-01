@@ -72,9 +72,11 @@ These requirements describe how well the system will serve its functionalities. 
 * The availability of the system (it should be the same for a single user or a billion of users)
 * The latency of responding client requests
 * The consistency of the data (whether it is consistent for two different users and/or at two different times and/or in two different geolocations)
-* The cost (machines, development, maintain
+* The cost (machines, development, maintenance)
+
+Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjgxNDgxMiwtMTE2OTA4NTY5MCw4Nj
+eyJoaXN0b3J5IjpbLTM5NzYwOTIwNiwtMTE2OTA4NTY5MCw4Nj
 g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
 MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
 I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
