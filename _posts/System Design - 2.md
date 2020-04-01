@@ -50,12 +50,18 @@ Batch processing system is quite different from the above two in the first glanc
 
 Surprisingly, the above three systems are quite different but can all be described with a single formula: client - server - database. If it applies to all systems, what is the point of system design? There must be some unique aspects about each particular system so that the design is essential in building and maintaining it.
 
-Systematically, two types of requirements make a system unique regardless of
+Systematically, two types of requirements make a system unique regardless of how it is similar to any other system you encountered:
+
+> Functional Requirements
+> Non-Functional Requirements
+
+**Functional Requirements**
+
+These requirements describe the functionalities the system provide. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA2NTMzOTAsLTExNjkwODU2OTAsOD
-Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
-OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
-IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
-MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
-==
+eyJoaXN0b3J5IjpbOTU1MDYzMDYxLC0xMTY5MDg1NjkwLDg2OD
+k4MDU5MywxMTkyNjMyMDU0LDcxODI1ODg3MiwtMzAwNzgzNzkx
+LDE4OTQyODcyNSwxMzAzNDM5NDI5LC05NjAwNzMzMzIsLTYyMj
+c4NTgyMiwyMDUzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEy
+LC0xMDg1ODI2MTUsLTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
 -->
