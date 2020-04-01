@@ -10,23 +10,31 @@ Before we dig into various aspects of system designs, we shall first review and 
 
 We can start with a high-level architecture, similar to Figure-1 below. Before long, you will find that nearly majority of systems you are about to design follow the same pattern. A client sends a request to a server, and then the server queries a database. The database sends back some data or confirmation and the server optionally processes the data before sending a response to the client. 
 
-![A Simple System Design to Start](assets/5DE69707-4217-43FB-A7DF-C9ED96E0A99E.jpeg)
+![A Simple System Design to Start](/assets/5DE69707-4217-43FB-A7DF-C9ED96E0A99E.jpeg)
 
 This diagram seems specific to an online system, for example a website, but can be applied to many problems if you think of the `client`, `server`, `database` in a more general way. 
 
 > `client` can be: a real user, a web browser, a programming language library, a console or terminal, a batch job driver
+> 
 > `server` can be: any server that accepts requests from clients and responds accordingly. For example, a web server, a load balancer, a DNS server, a cache system, a batch job master server
+> 
 > `database` can be: any system that persists any data for future usage
 
 ### Examples of Systems
 Let’s review some examples.
 
 #### URL Shortening System
-In a URL shortening system (commonly asked in a technical interview), a client can be a website similar to [bitly.com](https://bitly.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the text box and click the `Shorten` button, a http request will be sent to a remote server with the link to be shortened and optionally the user’s information if she/he logins in. In a small system, the server might just be a single machine that listens a TCP/IP port and exchanges data with outside world. The server processes the request, namely shortening the provided link by using some common techniques like hashing, and store relevant data in a database that can be relational database like MySQL, PostgresSQL or non-relational database such as MongoDB, Cassandra, etc. In a large system that serves millions of users, the server is actually a distributed system that probably comprise of load balancer, tons of commodity machines running the same web service. Additionally, a caching layer will be placed in an appropriate position (we shall revisit more details later about caching system). There will be clusters of database instances which are either leader(s) or followers (a side note: I will avoid using master/slave term as much as possible, but they are the same concepts as leader/follower.). 
+In a URL shortening system (commonly asked in a technical interview), a client can be a website similar to [bitly.com](https://bitly.com), which interacts with users who wants to shorten a long link in his hand. Once a user enters his link in the text box and click the `Shorten` button, a http request will be sent to a remote server with the link to be shortened and optionally the user’s information if she/he logins in.
+
+In a small system, the server might just be a single machine that listens a TCP/IP port and exchanges data with outside world. The server processes the request, namely shortening the provided link by using some common techniques like hashing, and store relevant data in a database that can be relational database like MySQL, PostgresSQL or non-relational database such as MongoDB, Cassandra, etc. 
+
+In a large system that serves millions of users, the server is actually a distributed system that probably comprise of load balancer, tons of commodity machines running the same web service. Additionally, a caching layer will be placed in an appropriate position (we shall revisit more details later about caching system). There will be clusters of database instances which are either leader(s) or followers (a side note: I will avoid using master/slave term as much as possible, but they are the same concepts as leader/follower.). 
 
 *Summary of URL Shortening System*
 > **Client**: a real user or websites or Javascript that interacts with servers
+> 
 > **Server**: a web server listens on 80 or 433 port, or a cluster of servers and load balancers
+> 
 > **Database**: MySQL or PostgresSQL, or MongoDB, DynamoDB, Cassandra 
 
 #### In-memory Caching System
@@ -86,5 +94,6 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg5NTYyNTMsNDM3ODg1MDEwXX0=
+eyJoaXN0b3J5IjpbLTE2OTExMjAxNjQsLTE1MTg5NTYyNTMsND
+M3ODg1MDEwXX0=
 -->
