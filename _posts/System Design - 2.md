@@ -61,9 +61,11 @@ These requirements describe the functionalities the system provide. In the URL s
 * Understand the problem you are solving deeply
 * Know the use cases of the system
 * Take care of corner cases
-* Leverage known algorithms and data structures 
+* Leverage known algorithms and data structures or devise your own 
+
+Often, we easily overlook the importance of the functional requirements and focu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc5ODI4NzksLTExNjkwODU2OTAsOD
+eyJoaXN0b3J5IjpbLTEyNjUyNjM5MjEsLTExNjkwODU2OTAsOD
 Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
 OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
 IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
