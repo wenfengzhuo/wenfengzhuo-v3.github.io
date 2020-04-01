@@ -74,12 +74,11 @@ These requirements describe how well the system will serve its functionalities. 
 * The consistency of the data (whether it is consistent for two different users and/or at two different times and/or in two different geolocations)
 * The cost (machines, development, maintenance)
 
-Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep it up running 7/24 and ensure generating the shortened URL quickly enough to make user believe it is worth their effort in using the tool rather than retrieving the long 
+Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep it up running 7/24 and ensure generating the shortened URL quickly enough to make user believe it is worth their effort in using the tool rather than retrieving the long URL directly from their notebook. In the distributed caching system, the system should guarantee a high level of consistency of the data it caches. When a user update
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYzMDk4MjQsLTExNjkwODU2OTAsOD
-Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
-OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
-IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
-MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
-==
+eyJoaXN0b3J5IjpbOTk5MTQ2NDAxLC0xMTY5MDg1NjkwLDg2OD
+k4MDU5MywxMTkyNjMyMDU0LDcxODI1ODg3MiwtMzAwNzgzNzkx
+LDE4OTQyODcyNSwxMzAzNDM5NDI5LC05NjAwNzMzMzIsLTYyMj
+c4NTgyMiwyMDUzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEy
+LC0xMDg1ODI2MTUsLTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
 -->
