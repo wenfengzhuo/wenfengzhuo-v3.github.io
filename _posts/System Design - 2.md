@@ -48,9 +48,11 @@ Batch processing system is quite different from the above two in the first glanc
 
 ### How to Differentiate
 
-Surprisingly, the above three systems are quite different but can all be described with a single formula: client - server - database. If it applies to all systems, what is the point of system design? There must be some unique aspects about each particular system so that the design is essential in building and maintaining it. Systematically, there are 
+Surprisingly, the above three systems are quite different but can all be described with a single formula: client - server - database. If it applies to all systems, what is the point of system design? There must be some unique aspects about each particular system so that the design is essential in building and maintaining it.
+
+Systematically, two types of requirements make a system unique regardless of
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY1MzI2MjAsLTExNjkwODU2OTAsOD
+eyJoaXN0b3J5IjpbLTE3OTA2NTMzOTAsLTExNjkwODU2OTAsOD
 Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
 OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
 IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
