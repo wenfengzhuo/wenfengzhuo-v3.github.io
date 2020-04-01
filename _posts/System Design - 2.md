@@ -48,9 +48,9 @@ Batch processing system is quite different from the above two in the first glanc
 
 ### How to Differentiate
 
-
+Surprisingly, the above three systems are quite different but can all be described with a single formula - cl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTM3Mzg5NiwtMTE2OTA4NTY5MCw4Nj
+eyJoaXN0b3J5IjpbMTUwMjE0MzY1MywtMTE2OTA4NTY5MCw4Nj
 g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
 MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
 I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
