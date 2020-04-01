@@ -9,7 +9,9 @@ Before we dig into various aspects of system designs, we shall first review and 
 ### High-Level Architecture
 
 We can start with a high-level architecture, similar to Figure-1 below. Before long, you will find that nearly majority of systems you are about to design follow the same pattern. A client sends a request to a server, and then the server queries a database. The database sends back some data or confirmation and the server optionally processes the data before sending a response to the client. 
-<img src="/assets/5DE69707-4217-43FB-A7DF-C9ED96E0A99E.jpeg" width="400" height="120" style="text-align: center"/>
+
+<img src="/assets/5DE69707-4217-43FB-A7DF-C9ED96E0A99E.jpeg" width="600" height="170" style="text-align: center"/>
+
 This diagram seems specific to an online system, for example a website, but can be applied to many problems if you think of the `client`, `server`, `database` in a more general way. 
 
 > **client** can be: a real user, a web browser, a programming language library, a console or terminal, a batch job driver</br>
@@ -98,7 +100,7 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDUwNzI3ODgsLTU4MjAzMDYwNiwtMT
-YxMTg1NDQzMywtNTgyMDMwNjA2LC0xNTE4OTU2MjUzLDQzNzg4
-NTAxMF19
+eyJoaXN0b3J5IjpbMTkxMzYzNTg2MywtNTgyMDMwNjA2LC0xNj
+ExODU0NDMzLC01ODIwMzA2MDYsLTE1MTg5NTYyNTMsNDM3ODg1
+MDEwXX0=
 -->
