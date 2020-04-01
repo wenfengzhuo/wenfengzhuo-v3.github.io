@@ -48,11 +48,11 @@ Batch processing system is quite different from the above two in the first glanc
 
 ### How to Differentiate
 
-Surprisingly, the above three systems are quite different but can all be described with a single formula: client - server - database. 
+Surprisingly, the above three systems are quite different but can all be described with a single formula: client - server - database. If it applies to all systems, what is the point of system design? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1Njc0ODA4LC0xMTY5MDg1NjkwLDg2OD
-k4MDU5MywxMTkyNjMyMDU0LDcxODI1ODg3MiwtMzAwNzgzNzkx
-LDE4OTQyODcyNSwxMzAzNDM5NDI5LC05NjAwNzMzMzIsLTYyMj
-c4NTgyMiwyMDUzNjY5NDI5LDUxNjcyNzYwNSwtNDQ3NTAwMjEy
-LC0xMDg1ODI2MTUsLTEwODU4MjYxNSwtNjg1OTI0NjM3XX0=
+eyJoaXN0b3J5IjpbLTExMDc1NTEzOCwtMTE2OTA4NTY5MCw4Nj
+g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
+MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
+I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
+MiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
 -->
