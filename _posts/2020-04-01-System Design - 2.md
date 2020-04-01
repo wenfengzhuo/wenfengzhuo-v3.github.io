@@ -10,7 +10,7 @@ Before we dig into various aspects of system designs, we shall first review and 
 
 We can start with a high-level architecture, similar to Figure-1 below. Before long, you will find that nearly majority of systems you are about to design follow the same pattern. A client sends a request to a server, and then the server queries a database. The database sends back some data or confirmation and the server optionally processes the data before sending a response to the client. 
 
-![A Simple System Design to Start](/assets/5DE69707-4217-43FB-A7DF-C9ED96E0A99E.jpeg)
+![A Simple System Design to Start](/assets/5DE69707-4217-43FB-A7DF-C9ED96E0A99E.jpeg =400*110)
 
 This diagram seems specific to an online system, for example a website, but can be applied to many problems if you think of the `client`, `server`, `database` in a more general way. 
 
@@ -106,6 +106,6 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjAzMDYwNiwtMTUxODk1NjI1Myw0Mz
-c4ODUwMTBdfQ==
+eyJoaXN0b3J5IjpbLTE2MTE4NTQ0MzMsLTU4MjAzMDYwNiwtMT
+UxODk1NjI1Myw0Mzc4ODUwMTBdfQ==
 -->
