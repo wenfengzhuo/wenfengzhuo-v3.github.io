@@ -38,7 +38,11 @@ In a large system that serves millions of users, the server is actually a distri
 > **Database**: MySQL or PostgresSQL, or MongoDB, DynamoDB, Cassandra 
 
 #### In-memory Caching System
-Caching layer is commonly found in many software systems. A famous example is memcached - an open source key-value based in-memory caching system. In such a system, there might exist a variety of types of clients. Libraries for major programming languages will be available (such as [here](https://github.com/dustin/java-memcached-client) for Java, [here](https://github.com/pinterest/pymemcache) for Python, and [here](https://github.com/php-memcached-dev/php-memcached) for PHP). In fact, you can even use [telnet](https://en.wikipedia.org/wiki/Telnet) to interact with memcached server. On the server side, usually it uses a hash table in memory and the table size can grow to as much as the memory capacity. A special characteristic about caching system is that it usually doesn’t have a persistent layer. The primary reason is that caching system is not source of truth for the data.
+Caching layer is commonly found in many software systems. A famous example is memcached - an open source key-value based in-memory caching system.
+
+In such a system, there might exist a variety of types of clients. Libraries for major programming languages will be available (such as [here](https://github.com/dustin/java-memcached-client) for Java, [here](https://github.com/pinterest/pymemcache) for Python, and [here](https://github.com/php-memcached-dev/php-memcached) for PHP). In fact, you can even use [telnet](https://en.wikipedia.org/wiki/Telnet) to interact with memcached server. 
+
+On the server side, usually it uses a hash table in memory and the table size can grow to as much as the memory capacity. A special characteristic about caching system is that it usually doesn’t have a persistent layer. The primary reason is that caching system is not source of truth for the data.
 
 *Summary of In-memory Caching System*
 > **Client**: Java/Python/PHP library or telnet
@@ -47,11 +51,17 @@ Caching layer is commonly found in many software systems. A famous example is me
 
 #### A Batch Processing System
 
-Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprises of master nodes and worker nodes. Master nodes respond to clients’ requests and coordinate jobs with worker nodes, which execute tasks independently. This cluster usually relies on distributed file system to persist data where we can refer as the “database” for the batch process system. [HDFS](https://hdfs.apache.org) is an open sourced distributed file system commonly used in the industry.
+Batch processing system is quite different from the above two in the first glance. Common batch processing includes [Hadoop](https://hadoop.apache.org) and [Spark](https://spark.apache.org). While paradigm of designing is a bit different, we can still manage to use the abstract architecture to describe them. 
+
+In such a system, a driver program can be regarded as a client. It initiates a batch processing job and submits it to the cluster of the system. The system comprises of master nodes and worker nodes. Master nodes respond to clients’ requests and coordinate jobs with worker nodes, which execute tasks independently. 
+
+This cluster usually relies on distributed file system to persist data where we can refer as the “database” for the batch process system. [HDFS](https://hdfs.apache.org) is an open sourced distributed file system commonly used in the industry.
 
 *Summary of Batching Processing System*
 > **Client**: a driver program
+> 
 > **Server**: the cluster of the system which has master nodes and worker nodes
+> 
 > **Database**: a distributed file system. 
 
 ### How to Differentiate
@@ -65,13 +75,15 @@ Systematically, two types of requirements make a system unique regardless of how
 
 **Functional Requirements**
 
-These requirements describe the functionalities the system provide. In the URL shortening system, the requirements are: shorten a given URL and store it, retrieve original URL given a shortened URL; In the distributed caching system, the requirements are: store a piece of data associated with a key, retrieve the data with given key. When designing these systems, you have to make sure the system will `correctly` satisfy these requirements. Correct implementation is the key, which requires you to: 
+These requirements describe the functionalities the system provide. In the URL shortening system, the requirements are: shorten a given URL and store it, retrieve original URL given a shortened URL; In the distributed caching system, the requirements are: store a piece of data associated with a key, retrieve the data with given key. When designing these systems, you have to make sure the system will `correctly` satisfy these requirements. 
+
+Correct implementation is the key, which requires you to: 
 * Understand the problem you are solving deeply
 * Know the use cases of the system
 * Take care of corner cases
 * Leverage known algorithms and data structures or devise your own 
 
-Often, we easily overlook the importance of the functional requirements and focus too much on the non-functional requirements.  Consequently, we need to rework the design or deviate from the initial goal of creating the system.
+Often, we easily overlook the importance of the functional requirements and focus too much on the non-functional requirements.  Consequently, we need to rework the design or deviate from the initial goal of creating the system later.
 
 **Non-functional Requirements**
 
@@ -94,6 +106,6 @@ When tasked with a system design, it's helpful if we can systematically approach
 2. Build a high-level architecture of the system
 3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTExMjAxNjQsLTE1MTg5NTYyNTMsND
-M3ODg1MDEwXX0=
+eyJoaXN0b3J5IjpbLTU4MjAzMDYwNiwtMTUxODk1NjI1Myw0Mz
+c4ODUwMTBdfQ==
 -->
