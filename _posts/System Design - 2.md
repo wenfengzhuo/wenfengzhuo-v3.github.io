@@ -67,11 +67,15 @@ Often, we easily overlook the importance of the functional requirements and focu
 
 **Non-functional Requirements**
 
-These requirements describe how well the system will serve its functionalities. Usually, it is to ensure: user experience, data integrity, cost effectiveness, low maintenance effort, etc. With these goals in mind, you system needs to 
+These requirements describe how well the system will serve its functionalities. Usually, it is to ensure: user experience, data integrity, cost effectiveness, low maintenance effort, etc. With these goals in mind, you system needs to take into consideration of a subset of the following things:
+
+* The availability of the system (it should be the same for a single user or a billion of users)
+* The latency of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2ODcxMTUsLTExNjkwODU2OTAsODY4OT
-gwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3OTEs
-MTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNjIyNz
-g1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAyMTIs
-LTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ==
+eyJoaXN0b3J5IjpbLTEyMDk2OTYxNTcsLTExNjkwODU2OTAsOD
+Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
+OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
+IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
+MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
+==
 -->
