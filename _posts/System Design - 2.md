@@ -67,11 +67,12 @@ Often, we easily overlook the importance of the functional requirements and focu
 
 **Non-functional Requirements**
 
-These requirements describe how well the system will serve 
+These requirements describe how well the system will serve its functionalities. Usually, it is to ensure: user experience, data integrity, cost effectiveness, low maintenance effort, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzA1MDQ4NSwtMTE2OTA4NTY5MCw4Nj
-g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
-MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
-I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
-MiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
+eyJoaXN0b3J5IjpbLTE0MTI1NzYzNzcsLTExNjkwODU2OTAsOD
+Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
+OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
+IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
+MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
+==
 -->
