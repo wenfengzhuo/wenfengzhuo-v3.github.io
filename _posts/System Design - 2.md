@@ -80,12 +80,16 @@ There are many techniques for satisfying these non-functional requirements, and 
 
 ### Summary
 
-When tasked with a system design, it's helpful if we can systematically approach it. The general suggestion here is to first start with exploring the functional requirements of the system 
+When tasked with a system design, it's helpful if we can systematically approach it. The general suggestion here is to:
+
+1. Start with exploring the functional requirements of the system 
+2. Build a high-level architecture of the system
+3. Scope the non-functional requirements and examine the trade-off of different factors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjEyMzE5NjcsMTk4MTMwNzc2NCwtMT
-E2OTA4NTY5MCw4Njg5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4
-NzIsLTMwMDc4Mzc5MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOT
-YwMDczMzMyLC02MjI3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2
-MDUsLTQ0NzUwMDIxMiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLT
-Y4NTkyNDYzN119
+eyJoaXN0b3J5IjpbNDM3ODg1MDEwLDE5ODEzMDc3NjQsLTExNj
+kwODU2OTAsODY4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcy
+LC0zMDA3ODM3OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MD
+A3MzMzMiwtNjIyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1
+LC00NDc1MDAyMTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02OD
+U5MjQ2MzddfQ==
 -->
