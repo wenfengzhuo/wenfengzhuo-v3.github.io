@@ -74,11 +74,12 @@ These requirements describe how well the system will serve its functionalities. 
 * The consistency of the data (whether it is consistent for two different users and/or at two different times and/or in two different geolocations)
 * The cost (machines, development, maintenance)
 
-Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep 
+Different systems have different requirements, which make them differentiated from others. In URL shortening system, you need to keep it up running 7/24 and ensure generating the shortened URL quickly enough to make user believe it is worth their effort in using the tool rather than retrieving the long 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzYwOTIwNiwtMTE2OTA4NTY5MCw4Nj
-g5ODA1OTMsMTE5MjYzMjA1NCw3MTgyNTg4NzIsLTMwMDc4Mzc5
-MSwxODk0Mjg3MjUsMTMwMzQzOTQyOSwtOTYwMDczMzMyLC02Mj
-I3ODU4MjIsMjA1MzY2OTQyOSw1MTY3Mjc2MDUsLTQ0NzUwMDIx
-MiwtMTA4NTgyNjE1LC0xMDg1ODI2MTUsLTY4NTkyNDYzN119
+eyJoaXN0b3J5IjpbLTIwMTYzMDk4MjQsLTExNjkwODU2OTAsOD
+Y4OTgwNTkzLDExOTI2MzIwNTQsNzE4MjU4ODcyLC0zMDA3ODM3
+OTEsMTg5NDI4NzI1LDEzMDM0Mzk0MjksLTk2MDA3MzMzMiwtNj
+IyNzg1ODIyLDIwNTM2Njk0MjksNTE2NzI3NjA1LC00NDc1MDAy
+MTIsLTEwODU4MjYxNSwtMTA4NTgyNjE1LC02ODU5MjQ2MzddfQ
+==
 -->
