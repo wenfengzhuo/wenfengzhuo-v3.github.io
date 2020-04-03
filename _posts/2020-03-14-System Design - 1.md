@@ -4,6 +4,8 @@ comments: true
 categories: system-design
 title: System Design Part 1 - Trade-off Science
 ---
+> The article is still in draft stage.
+
 System Design is an essential skill for every software engineer. The magnitude of involvement will differ from person to person based on their experience and seniority. System design is also a critically important part in the interview evaluation process. It shows how well you understand software system and computer science applied to real-life problems.
 
 While abundant resource about how to be an expert on system design, it still remains as a difficult skill for engineers to obtain. Usually, people are biased by years of experience when judging your system design capability. More extremely, some people might not believe you are able to design a complicated system without years of experience above a threshold. 
@@ -19,6 +21,6 @@ With these two areas to focus, we can attempt to generalize the approaches to sy
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA5MzEzMTMsLTE0MzQyMTMzODldfQ
-==
+eyJoaXN0b3J5IjpbLTg1Mzk4NjE0LC0xNzkwOTMxMzEzLC0xND
+M0MjEzMzg5XX0=
 -->
