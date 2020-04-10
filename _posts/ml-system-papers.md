@@ -14,10 +14,11 @@ As more machine learning based solutions are deployed in production, the system 
 [Predictive model performance: offline and online evaluations](https://dl.acm.org/doi/10.1145/2487575.2488215)
 [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)
 [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
+[Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMT
-g2ODE2MDg2NF19
+eyJoaXN0b3J5IjpbNDA1NzkzODkzLC0xNDQ2MjkyNzg2LC04OD
+M5MTU4MzUsLTE4NjgxNjA4NjRdfQ==
 -->
