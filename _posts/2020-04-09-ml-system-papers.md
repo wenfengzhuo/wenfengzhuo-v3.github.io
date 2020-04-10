@@ -198,10 +198,19 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/)
 
-
+> Introduction<br> We decided to build a brand-new platform, FBLearner
+> Flow, capable of easily reusing algorithms in different products,
+> scaling to run thousands of simultaneous custom experiments, and
+> managing experiments with ease. This platform provides innovative
+> functionality, like automatic generation of UI experiences from
+> pipeline definitions and automatic parallelization of Python code
+> using futures. FBLearner Flow is used by more than 25 percent of
+> Facebook's engineering team. Since its inception, more than a million
+> models have been trained, and our prediction service has grown to make
+> more than 6 million predictions per second.
 
 ***Note: Please use the link of the article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzI1ODQ1OCwtMTM4NDAwOTM5NSwxOD
+eyJoaXN0b3J5IjpbMTI2NTcxMjM5NCwtMTM4NDAwOTM5NSwxOD
 Q2NDM5MDEzXX0=
 -->
