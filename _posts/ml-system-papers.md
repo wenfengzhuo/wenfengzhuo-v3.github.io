@@ -2,7 +2,7 @@
 layout: post
 comments: true
 categories: resources
-title: ML System Papers You Need to Read
+title: ML System Papers You Should Read
 ---
 
 Machine learning system is a specialized system that is built for solving problems with machine learning deeply integrated. While it has existed for a while, machine learning is just becoming popular in recent decades compared with other technologies. 
@@ -19,6 +19,6 @@ As more machine learning based solutions are deployed in production, the system 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NzkzODkzLC0xNDQ2MjkyNzg2LC04OD
-M5MTU4MzUsLTE4NjgxNjA4NjRdfQ==
+eyJoaXN0b3J5IjpbLTMxMTgyMzA3NywtMTQ0NjI5Mjc4NiwtOD
+gzOTE1ODM1LC0xODY4MTYwODY0XX0=
 -->
