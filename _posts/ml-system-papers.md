@@ -17,11 +17,11 @@ As more machine learning based solutions are deployed in production, the system 
 [Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
 [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 [Searching for Communities: a Facebook Way](https://research.fb.com/wp-content/uploads/2019/06/Searching-for-Communities-a-Facebook-Way.pdf?)
-
-
+[Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NzYwNzE0LC0zMTE4MjMwNzcsLTE0ND
-YyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2MDg2NF19
+eyJoaXN0b3J5IjpbLTEzNzM1MzQwODUsNjc4NzYwNzE0LC0zMT
+E4MjMwNzcsLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2
+MDg2NF19
 -->
