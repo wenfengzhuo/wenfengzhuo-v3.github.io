@@ -173,11 +173,14 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 > challenges in depth and describes our solution.
 
 **Some paper-like articles**
+
 [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+
 [Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo-machine-learning-platform/)
+
 [Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/)
 
 ***Note: Please use the link of the article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA3MzU1NjFdfQ==
+eyJoaXN0b3J5IjpbMTg0NjQzOTAxM119
 -->
