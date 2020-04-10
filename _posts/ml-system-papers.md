@@ -114,7 +114,7 @@ As more machine learning based solutions are deployed in production, the system 
 
 [Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
 
-> Abstract 
+> ABSTRACT 
 > In this paper, we introduce Factorization Machines (FM) which
 > are a new model class that combines the advantages of Support Vector
 > Machines (SVM) with factorization models. Like SVMs, FMs are a general
@@ -141,7 +141,7 @@ As more machine learning based solutions are deployed in production, the system 
 
 [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 
-> Abstract
+> ABSTRACT
 > We present SlowFast networks for video recognition. Our model involves
 > (i) a Slow pathway, operating at low frame rate, to capture spatial
 > semantics, and (ii) a Fast path- way, operating at high frame rate, to
@@ -156,15 +156,28 @@ As more machine learning based solutions are deployed in production, the system 
 
 [Searching for Communities: a Facebook Way](https://research.fb.com/wp-content/uploads/2019/06/Searching-for-Communities-a-Facebook-Way.pdf?)
 
+> ABSTRACT
+> Giving people the power to build community is central to Face- book’s
+> mission. Technically, searching for communities poses very different
+> challenges compared to the standard IR problems. First, there is a
+> vocabulary mismatch problem since most of the content of the
+> communities is private. Second, the common labeling strategies based
+> on human ratings and clicks do not work well due to limited public
+> content available to third-party raters and users at search time.
+> Finally, community search has a dual objective of satisfying searchers
+> and growing the number of active communities. While A/B testing is a
+> well known approach for assessing the former, it is an open question
+> on how to measure progress on the latter. This talk discusses these
+> challenges in depth and describes our solution.
 
 **Some paper-like articles**
 [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 [Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo-machine-learning-platform/)
 [Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/)
 
-
+Note: Please share the direct link rather than copy the content 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTA3MjYwMyw2Nzg3NjA3MTQsLTMxMT
+eyJoaXN0b3J5IjpbLTI1NzcyMTI1MCw2Nzg3NjA3MTQsLTMxMT
 gyMzA3NywtMTQ0NjI5Mjc4NiwtODgzOTE1ODM1LC0xODY4MTYw
 ODY0XX0=
 -->
