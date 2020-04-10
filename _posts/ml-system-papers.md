@@ -7,7 +7,9 @@ title: ML System Papers You Should Read
 
 Machine learning system is a specialized system that is built for solving problems with machine learning deeply integrated. While it has existed for a while, machine learning is just becoming popular in recent decades compared with other technologies. 
 
-As more machine learning based solutions are deployed in production, the system around ML has involved as well. Majority of ML systems are tackling specific problems such as personalization, recommendation and ads ranking. There is also a trend in generalized machine learning system that solves a variety of problems. To learn how a machine learning system is built, the best way is probably through practice with real-life projects. The second best way are reading papers published by well-known companies that specialize in applied machine learning. Below is a list of good papers that I personally have learned a lot from, and hopefully you will distill useful knowledge for your interests.
+As more machine learning based solutions are deployed in production, the system around ML has evolved as well. Majority of ML systems are tackling specific problems such as personalization, recommendation and ads ranking. There is also a trend in generalized machine learning system that solves a variety of problems. To learn how a machine learning system is built, the best way is probably through practice with real-life projects. The second best way is by reading papers published by well-known companies that specialize in applied machine learning. 
+
+Below is a list of good papers that I personally have learned a lot from, and hopefully you will distill useful knowledge for your interests.
 
 [TFX: A TensorFlow-Based Production-Scale Machine Learning](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/b500d77bc4f518a1165c0ab43c8fac5d2948bc14.pdf)
 
@@ -177,7 +179,7 @@ As more machine learning based solutions are deployed in production, the system 
 
 ***Note: Please use the link of article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc1OTM1NjEsNjc4NzYwNzE0LC0zMT
+eyJoaXN0b3J5IjpbLTEwMDg1NDMwMDAsNjc4NzYwNzE0LC0zMT
 E4MjMwNzcsLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2
 MDg2NF19
 -->
