@@ -116,8 +116,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
 
-> ABSTRACT 
-> 
+> ABSTRACT <br/>
 > In this paper, we introduce Factorization Machines (FM) which
 > are a new model class that combines the advantages of Support Vector
 > Machines (SVM) with factorization models. Like SVMs, FMs are a general
@@ -144,8 +143,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 
-> ABSTRACT
-> 
+> ABSTRACT<br/>
 > We present SlowFast networks for video recognition. Our model involves
 > (i) a Slow pathway, operating at low frame rate, to capture spatial
 > semantics, and (ii) a Fast path- way, operating at high frame rate, to
@@ -160,8 +158,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Searching for Communities: a Facebook Way](https://research.fb.com/wp-content/uploads/2019/06/Searching-for-Communities-a-Facebook-Way.pdf?)
 
-> ABSTRACT
-> 
+> ABSTRACT<br/>
 > Giving people the power to build community is central to Face- book’s
 > mission. Technically, searching for communities poses very different
 > challenges compared to the standard IR problems. First, there is a
@@ -179,12 +176,32 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
+> Introduction<br/>
+> This document is intended to help those with a basic
+> knowledge of machine learning get the benefit of best practices in
+> machine learning from around Google. It presents a style for machine
+> learning, similar to the Google C++ Style Guide and other popular
+> guides to practical programming. If you have taken a class in machine
+> learning, or built or worked on a machine­learned model, then you have
+> the necessary background to read this document.
+
 [Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo-machine-learning-platform/)
+
+> Introduction<br/>
+> Uber Engineering is committed to developing technologies
+> that create seamless, impactful experiences for our customers. We are
+> increasingly investing in artificial intelligence (AI) and machine
+> learning (ML) to fulfill this vision. At Uber, our contribution to
+> this space is Michelangelo, an internal ML-as-a-service platform that
+> democratizes machine learning and makes scaling AI to meet the needs
+> of business as easy as requesting a ride.
 
 [Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/)
 
+
+
 ***Note: Please use the link of the article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwMjIxOTQsLTEzODQwMDkzOTUsMTg0Nj
-QzOTAxM119
+eyJoaXN0b3J5IjpbMTA2MzI1ODQ1OCwtMTM4NDAwOTM5NSwxOD
+Q2NDM5MDEzXX0=
 -->
