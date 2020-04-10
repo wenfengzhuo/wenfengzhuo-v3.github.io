@@ -19,9 +19,11 @@ As more machine learning based solutions are deployed in production, the system 
 [Searching for Communities: a Facebook Way](https://research.fb.com/wp-content/uploads/2019/06/Searching-for-Communities-a-Facebook-Way.pdf?)
 [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
+**Some paper-like articles**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM1MzQwODUsNjc4NzYwNzE0LC0zMT
+eyJoaXN0b3J5IjpbLTE0MjE0MTYxNjIsNjc4NzYwNzE0LC0zMT
 E4MjMwNzcsLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2
 MDg2NF19
 -->
