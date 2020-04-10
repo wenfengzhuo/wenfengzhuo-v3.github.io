@@ -50,8 +50,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Predictive model performance: offline and online evaluations](https://dl.acm.org/doi/10.1145/2487575.2488215)
 
-> ABSTRACT
-> 
+> ABSTRACT<br/>
 > We study the accuracy of evaluation metrics used to estimate the
 > efficacy of predictive models. Offline evaluation metrics are
 > indicators of the expected model performance on real data. However, in
@@ -81,8 +80,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)
 
-> ABSTRACT
-> 
+> ABSTRACT<br/>
 > Generalized linear models with nonlinear feature transfor- mations are
 > widely used for large-scale regression and clas- sification problems
 > with sparse inputs. Memorization of fea- ture interactions through a
@@ -105,8 +103,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
 
-> ABSTRACT
-> 
+> ABSTRACT<br/>
 > YouTube represents one of the largest scale and most sophis- ticated
 > industrial recommendation systems in existence. In this paper, we
 > describe the system at a high level and fo- cus on the dramatic
@@ -188,6 +185,6 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 ***Note: Please use the link of the article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ2MDkxMzcsLTEzODQwMDkzOTUsMT
-g0NjQzOTAxM119
+eyJoaXN0b3J5IjpbMzUwMjIxOTQsLTEzODQwMDkzOTUsMTg0Nj
+QzOTAxM119
 -->
