@@ -14,6 +14,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [TFX: A TensorFlow-Based Production-Scale Machine Learning](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/b500d77bc4f518a1165c0ab43c8fac5d2948bc14.pdf)
 
 > ABSTRACT
+> 
 > Creating and maintaining a platform for reliably producing and
 > deploying machine learning models requires careful or- chestration of
 > many components—a learner for generating models based on training
@@ -28,6 +29,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf?)
 
 > ABSTRACT
+> 
 > Online advertising allows advertisers to only bid and pay for
 > measurable user responses, such as clicks on ads. As a consequence,
 > click prediction systems are central to most on- line advertising
@@ -51,6 +53,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [Predictive model performance: offline and online evaluations](https://dl.acm.org/doi/10.1145/2487575.2488215)
 
 > ABSTRACT
+> 
 > We study the accuracy of evaluation metrics used to estimate the
 > efficacy of predictive models. Offline evaluation metrics are
 > indicators of the expected model performance on real data. However, in
@@ -81,6 +84,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)
 
 > ABSTRACT
+> 
 > Generalized linear models with nonlinear feature transfor- mations are
 > widely used for large-scale regression and clas- sification problems
 > with sparse inputs. Memorization of fea- ture interactions through a
@@ -104,6 +108,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
 
 > ABSTRACT
+> 
 > YouTube represents one of the largest scale and most sophis- ticated
 > industrial recommendation systems in existence. In this paper, we
 > describe the system at a high level and fo- cus on the dramatic
@@ -117,6 +122,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
 
 > ABSTRACT 
+> 
 > In this paper, we introduce Factorization Machines (FM) which
 > are a new model class that combines the advantages of Support Vector
 > Machines (SVM) with factorization models. Like SVMs, FMs are a general
@@ -144,6 +150,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 
 > ABSTRACT
+> 
 > We present SlowFast networks for video recognition. Our model involves
 > (i) a Slow pathway, operating at low frame rate, to capture spatial
 > semantics, and (ii) a Fast path- way, operating at high frame rate, to
@@ -159,6 +166,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 [Searching for Communities: a Facebook Way](https://research.fb.com/wp-content/uploads/2019/06/Searching-for-Communities-a-Facebook-Way.pdf?)
 
 > ABSTRACT
+> 
 > Giving people the power to build community is central to Face- book’s
 > mission. Technically, searching for communities poses very different
 > challenges compared to the standard IR problems. First, there is a
@@ -182,5 +190,5 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 ***Note: Please use the link of the article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjQzOTAxM119
+eyJoaXN0b3J5IjpbLTEzODQwMDkzOTUsMTg0NjQzOTAxM119
 -->
