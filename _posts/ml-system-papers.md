@@ -11,10 +11,11 @@ As more machine learning based solutions are deployed in production, the system 
 
 [TFX: A TensorFlow-Based Production-Scale Machine Learning](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/b500d77bc4f518a1165c0ab43c8fac5d2948bc14.pdf)
 [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf?)
-
+[Predictive model performance: offline and online evaluations](https://dl.acm.org/doi/10.1145/2487575.2488215)
+[
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU5NzQ0NTEsLTg4MzkxNTgzNSwtMT
-g2ODE2MDg2NF19
+eyJoaXN0b3J5IjpbMTQ3MzU1OTQ0LC04ODM5MTU4MzUsLTE4Nj
+gxNjA4NjRdfQ==
 -->
