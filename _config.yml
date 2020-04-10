@@ -25,7 +25,7 @@ github_username:
 analytics_id: "UA-128750316-1"
 
 # Build settings
-markdown: GFM # options: kramdown, GFM
+markdown: kramdown # options: kramdown, GFM
 
 kramdown:
   parse_block_html: true
