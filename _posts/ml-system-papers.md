@@ -15,10 +15,11 @@ As more machine learning based solutions are deployed in production, the system 
 [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)
 [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
 [Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
+[SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTgyMzA3NywtMTQ0NjI5Mjc4NiwtOD
-gzOTE1ODM1LC0xODY4MTYwODY0XX0=
+eyJoaXN0b3J5IjpbNTM0MDA4ODA4LC0zMTE4MjMwNzcsLTE0ND
+YyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2MDg2NF19
 -->
