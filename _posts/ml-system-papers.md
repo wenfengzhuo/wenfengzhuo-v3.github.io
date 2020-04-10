@@ -175,9 +175,9 @@ As more machine learning based solutions are deployed in production, the system 
 [Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo-machine-learning-platform/)
 [Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/)
 
-Note: Please share the direct link rather than copy the content 
+***Note: Please use the link of article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzcyMTI1MCw2Nzg3NjA3MTQsLTMxMT
-gyMzA3NywtMTQ0NjI5Mjc4NiwtODgzOTE1ODM1LC0xODY4MTYw
-ODY0XX0=
+eyJoaXN0b3J5IjpbLTEyMTc1OTM1NjEsNjc4NzYwNzE0LC0zMT
+E4MjMwNzcsLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2
+MDg2NF19
 -->
