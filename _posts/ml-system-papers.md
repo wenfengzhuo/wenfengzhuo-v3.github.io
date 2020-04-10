@@ -13,10 +13,11 @@ As more machine learning based solutions are deployed in production, the system 
 [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf?)
 [Predictive model performance: offline and online evaluations](https://dl.acm.org/doi/10.1145/2487575.2488215)
 [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)
+[Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MTgyMTI4LC04ODM5MTU4MzUsLTE4Nj
-gxNjA4NjRdfQ==
+eyJoaXN0b3J5IjpbLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMT
+g2ODE2MDg2NF19
 -->
