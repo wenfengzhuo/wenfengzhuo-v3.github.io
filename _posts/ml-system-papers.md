@@ -2,8 +2,10 @@
 layout: post
 comments: true
 categories: resources
-title: ML System Papers You need to 
+title: ML System Papers You Need to Read
 ---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwMTE5NTM0XX0=
+eyJoaXN0b3J5IjpbLTE4NjgxNjA4NjRdfQ==
 -->
