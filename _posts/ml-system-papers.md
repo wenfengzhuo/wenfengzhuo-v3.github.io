@@ -25,7 +25,7 @@ As more machine learning based solutions are deployed in production, the system 
 
 [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf?)
 
->ABSTRACT
+> ABSTRACT
 > Online advertising allows advertisers to only bid and pay for
 > measurable user responses, such as clicks on ads. As a consequence,
 > click prediction systems are central to most on- line advertising
@@ -47,7 +47,58 @@ As more machine learning based solutions are deployed in production, the system 
 > feature, or picking the right model to begin with.
 
 [Predictive model performance: offline and online evaluations](https://dl.acm.org/doi/10.1145/2487575.2488215)
+
+> ABSTRACT
+> We study the accuracy of evaluation metrics used to estimate the
+> efficacy of predictive models. Offline evaluation metrics are
+> indicators of the expected model performance on real data. However, in
+> practice we often experience substantial discrepancy between the
+> offline and online performance of the models.
+> 
+> We investigate the characteristics and behaviors of the evaluation
+> metrics on offline and online testing both analytically and
+> empirically by experimenting them on online advertising data from the
+> Bing search engine. One of our findings is that some offline metrics
+> like AUC (the Area Under the Receiver Operating Characteristic Curve)
+> and RIG (Relative Information Gain) that summarize the model
+> performance on the entire spectrum of operating points could be quite
+> misleading sometimes and result in significant discrepancy in offline
+> and online metrics. For example, for click prediction models for
+> search advertising, errors in predictions in the very low range of
+> predicted click scores impact the online performance much more
+> negatively than errors in other regions. Most of the offline metrics
+> we studied including AUC and RIG, however, are insensitive to such
+> model behavior.
+> 
+> We designed a new model evaluation paradigm that simulates the online
+> behavior of predictive models. For a set of ads selected by a new
+> prediction model, the online user behavior is estimated from the
+> historic user behavior in the search logs. The experimental results on
+> click prediction model for search advertising are highly promising.
+
 [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)
+
+> ABSTRACT
+> Generalized linear models with nonlinear feature transfor- mations are
+> widely used for large-scale regression and clas- sification problems
+> with sparse inputs. Memorization of fea- ture interactions through a
+> wide set of cross-product feature transformations are effective and
+> interpretable, while gener- alization requires more feature
+> engineering effort. With less feature engineering, deep neural
+> networks can generalize bet- ter to unseen feature combinations
+> through low-dimensional dense embeddings learned for the sparse
+> features. However, deep neural networks with embeddings can
+> over-generalize and recommend less relevant items when the user-item
+> inter- actions are sparse and high-rank. In this paper, we present
+> Wide & Deep learning—jointly trained wide linear models and deep
+> neural networks—to combine the benefits of mem- orization and
+> generalization for recommender systems. We productionized and
+> evaluated the system on Google Play, a commercial mobile app store
+> with over one billion active users and over one million apps. Online
+> experiment results show that Wide & Deep significantly increased app
+> acquisi- tions compared with wide-only and deep-only models. We have
+> also open-sourced our implementation in TensorFlow.
+
 [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
 [Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
 [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
@@ -61,7 +112,7 @@ As more machine learning based solutions are deployed in production, the system 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE3NjAzNzgsNjc4NzYwNzE0LC0zMT
-E4MjMwNzcsLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2
-MDg2NF19
+eyJoaXN0b3J5IjpbLTQwNzEwODA0OSw2Nzg3NjA3MTQsLTMxMT
+gyMzA3NywtMTQ0NjI5Mjc4NiwtODgzOTE1ODM1LC0xODY4MTYw
+ODY0XX0=
 -->
