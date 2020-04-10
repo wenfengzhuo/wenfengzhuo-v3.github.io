@@ -22,11 +22,11 @@ As more machine learning based solutions are deployed in production, the system 
 **Some paper-like articles**
 [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 [Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo-machine-learning-platform/)
-[
+[Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU0Mzg4NTIsNjc4NzYwNzE0LC0zMT
-E4MjMwNzcsLTE0NDYyOTI3ODYsLTg4MzkxNTgzNSwtMTg2ODE2
-MDg2NF19
+eyJoaXN0b3J5IjpbMTkxODQwNjgwOSw2Nzg3NjA3MTQsLTMxMT
+gyMzA3NywtMTQ0NjI5Mjc4NiwtODgzOTE1ODM1LC0xODY4MTYw
+ODY0XX0=
 -->
