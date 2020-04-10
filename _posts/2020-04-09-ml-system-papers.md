@@ -13,8 +13,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [TFX: A TensorFlow-Based Production-Scale Machine Learning](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/b500d77bc4f518a1165c0ab43c8fac5d2948bc14.pdf)
 
-> ABSTRACT
-> 
+> ABSTRACT<br/>
 > Creating and maintaining a platform for reliably producing and
 > deploying machine learning models requires careful or- chestration of
 > many components—a learner for generating models based on training
@@ -28,8 +27,7 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf?)
 
-> ABSTRACT
-> 
+> ABSTRACT<br/>
 > Online advertising allows advertisers to only bid and pay for
 > measurable user responses, such as clicks on ads. As a consequence,
 > click prediction systems are central to most on- line advertising
@@ -190,5 +188,6 @@ Below is a list of good papers that I personally have learned a lot from, and ho
 
 ***Note: Please use the link of the article to share the content rather than any form of copy-paste.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQwMDkzOTUsMTg0NjQzOTAxM119
+eyJoaXN0b3J5IjpbLTExMDQ2MDkxMzcsLTEzODQwMDkzOTUsMT
+g0NjQzOTAxM119
 -->
