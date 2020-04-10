@@ -100,8 +100,60 @@ As more machine learning based solutions are deployed in production, the system 
 > also open-sourced our implementation in TensorFlow.
 
 [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
+
+> ABSTRACT
+> YouTube represents one of the largest scale and most sophis- ticated
+> industrial recommendation systems in existence. In this paper, we
+> describe the system at a high level and fo- cus on the dramatic
+> performance improvements brought by deep learning. The paper is split
+> according to the classic two-stage information retrieval dichotomy:
+> first, we detail a deep candidate generation model and then describe a
+> sepa- rate deep ranking model. We also provide practical lessons and
+> insights derived from designing, iterating and maintain- ing a massive
+> recommendation system with enormous user- facing impact.
+
 [Factorization Machines](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/Rendle2010FM.pdf)
+
+> Abstract 
+> In this paper, we introduce Factorization Machines (FM) which
+> are a new model class that combines the advantages of Support Vector
+> Machines (SVM) with factorization models. Like SVMs, FMs are a general
+> predictor working with any real valued feature vector. In contrast to
+> SVMs, FMs model all interactions between variables using factorized
+> parameters. Thus they are able to estimate interactions even in
+> problems with huge sparsity (like recommender systems) where SVMs
+> fail. We show that the model equation of FMs can be calculated in
+> linear time and thus FMs can be optimized directly. So unlike
+> nonlinear SVMs, a transformation in the dual form is not necessary and
+> the model parameters can be estimated directly without the need of any
+> support vector in the solution. We show the relationship to SVMs and
+> the advantages of FMs for parameter estimation in sparse settings.
+> 
+> On the other hand there are many different factorization mod- els like
+> matrix factorization, parallel factor analysis or specialized models
+> like SVD++, PITF or FPMC. The drawback of these models is that they
+> are not applicable for general prediction tasks but work only with
+> special input data. Furthermore their model equations and optimization
+> algorithms are derived individually for each task. We show that FMs
+> can mimic these models just by specifying the input data (i.e. the
+> feature vectors). This makes FMs easily applicable even for users
+> without expert knowledge in factorization models.
+
 [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
+
+> Abstract
+> We present SlowFast networks for video recognition. Our model involves
+> (i) a Slow pathway, operating at low frame rate, to capture spatial
+> semantics, and (ii) a Fast path- way, operating at high frame rate, to
+> capture motion at fine temporal resolution. The Fast pathway can be
+> made very lightweight by reducing its channel capacity, yet can learn
+> useful temporal information for video recognition. Our models achieve
+> strong performance for both action classification and detection in
+> video, and large improve- ments are pin-pointed as contributions by
+> our SlowFast con- cept. We report state-of-the-art accuracy on major
+> video recognition benchmarks, Kinetics, Charades and AVA. Code has
+> been made available at: https://github.com/facebookresearch/SlowFast.
+
 [Searching for Communities: a Facebook Way](https://research.fb.com/wp-content/uploads/2019/06/Searching-for-Communities-a-Facebook-Way.pdf?)
 
 
@@ -112,7 +164,7 @@ As more machine learning based solutions are deployed in production, the system 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzEwODA0OSw2Nzg3NjA3MTQsLTMxMT
+eyJoaXN0b3J5IjpbLTIxOTA3MjYwMyw2Nzg3NjA3MTQsLTMxMT
 gyMzA3NywtMTQ0NjI5Mjc4NiwtODgzOTE1ODM1LC0xODY4MTYw
 ODY0XX0=
 -->
